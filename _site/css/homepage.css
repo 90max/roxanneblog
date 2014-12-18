@@ -1,0 +1,41 @@
+/*HEADER-----------------------------*/
+header.site-header{
+	background-color:	#dd3333;
+	position: fixed;
+	width: 100%;
+}
+
+/*MAIN PAGE--------------------------*/
+
+div.home{
+	margin-top: 62px;
+	width: 100%;
+}
+
+#carousel{
+	height: 300px;
+	border: solid;
+}
+
+ul.post-list{
+	width: 70%;
+	float: left;
+}
+
+div#widget{
+	width: 30%;
+	float: right;
+}
+
+h1.page-heading{
+	font-size: 40px;
+	margin-top: 15px;
+	background-color: #dd3333;
+	padding-left: 10px;
+}
+
+/*FOOTER-----------------------------*/
+
+footer.site-footer{
+	background-color: #dd3333;
+}
