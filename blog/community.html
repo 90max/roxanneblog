@@ -3,8 +3,18 @@ layout: default
 ---
 <h1 class="page-heading">Posts</h1>
 
+
   <ul class="post-list">
-    {% for post in site.communityposts %}
+
+{% for post in site.posts %}
+  {% if post.categories contains 'community' %}
+    <div class="post">
+        <h3 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <p class="meta">Date: {{ post.date }}</p>
+    </div>
+  {% endif %}
+{% endfor %}
+    <!--{% for post in site.posts.communityblog %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
@@ -12,7 +22,7 @@ layout: default
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
       </li>
-    {% endfor %}
+    {% endfor %}-->
   </ul>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
