@@ -17,7 +17,8 @@
         {% for page in site.pages %}
           {% if page.title %}
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">About me</a>
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">Contact</a>
+          <a class="page-link" href="/contact.html">Contact</a>
+          <a class='page-link' href='/community.html'>Community</a>
           {% endif %}
         {% endfor %}
       </div>
