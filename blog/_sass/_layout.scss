@@ -6,6 +6,7 @@
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
+
     // Positioning context for the mobile navigation icon
     position: relative;
 }
@@ -161,8 +162,9 @@
 /**
  * Page content
  */
-.page-content {
+.page-content {                        /*PAGE-CONTENT*/
     padding: $spacing-unit 0;
+    
 }
 
 .page-heading {
