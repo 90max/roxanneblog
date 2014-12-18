@@ -1,17 +1,20 @@
 ---
 layout: default
 ---
-<h1 class="page-heading">Posts</h1>
+<h1 class="post-title">Community</h1>
 
 
   <ul class="post-list">
 
 {% for post in site.posts %}
   {% if post.categories contains 'community' %}
-    <div class="post">
-        <h3 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-        <p class="meta">Date: {{ post.date }}</p>
-    </div>
+     <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
   {% endif %}
 {% endfor %}
     <!--{% for post in site.posts.communityblog %}
