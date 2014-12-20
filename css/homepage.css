@@ -37,11 +37,19 @@ li img{
 div#widget{
 	width: 30%;
 	float: right;
+	padding-left: 60px;
+	padding-bottom: 40px;
 }
 
 div.fb-like-box{
 	width: 30%;
 	float: right;
+}
+
+div._4s7c{
+	border: none;
+	width: 78%;
+	padding-left: 60px;
 }
 
 
