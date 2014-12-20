@@ -42,15 +42,14 @@ div#widget{
 }
 
 div.fb-like-box{
-	width: 30%;
+	width: 20%;
 	float: right;
+	padding-left: 60px;
+	padding-bottom: 20px;
+
 }
 
-div._li{
-	border: none;
-	width: 78%;
-	padding-left: 60px;
-}
+
 
 
 
