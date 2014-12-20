@@ -32,10 +32,19 @@ li img{
 	width: 100px;
 }
 
+/*WIDGETS*/
+
 div#widget{
 	width: 30%;
 	float: right;
 }
+
+div.fb-like-box{
+	width: 30%;
+	float: right;
+}
+
+
 
 h1.page-heading{
 	font-size: 40px;
