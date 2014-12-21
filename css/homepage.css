@@ -40,11 +40,8 @@ div#widget{
 	padding-left: 60px;
 	padding-bottom: 40px;
 }
-
-div.fb-like-box{
-	width: 30%;
-	float: right;
-
+#widget ul li{
+	display: inline;
 }
 
 
