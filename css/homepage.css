@@ -6,6 +6,11 @@ header.site-header{
 	z-index: 2;
 }
 
+a#sign-up{
+	border: 1px solid black;
+	padding: 1px;
+}
+
 /*SLIDER-----------------------------*/
 div#carousel-example-generic{
 	width: 100%;
