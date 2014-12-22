@@ -90,9 +90,10 @@ div#widget{
 	padding-top: 25px;
 }
 
-div.twitter-widget-0 {
-  width: 280px;  
-}
+
+#twitter-widget-0 { 
+      width: 280px !important; 
+    }
 
 
 
