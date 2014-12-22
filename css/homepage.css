@@ -21,6 +21,10 @@ header.site-header{
 	border-top: none;
 }
 
+div.nav-links{
+	text-decoration: none;
+}
+
 a#sign-up{
 	border: 1px solid black;
 	padding: 1px;
@@ -32,6 +36,8 @@ div#carousel-example-generic{
 	height: 300px;
 	z-index: 1;
 	margin-bottom: 40px;
+	margin-right: 25px;
+	margin-left: 25px;
 }
 /*MAIN PAGE--------------------------*/
 
@@ -95,6 +101,8 @@ p.rss-subscribe{
 footer.site-footer{
 	background-color: #dd3333;
 	border-top: none;
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
 
 /*COMMUNITY BANNER-------------------*/
