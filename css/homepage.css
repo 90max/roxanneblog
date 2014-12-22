@@ -8,6 +8,7 @@ div.wrapper{
 div.page-content{
 	background-color: #dd3333;
 	padding-bottom: 0px;
+	padding: 0px;
 }
 
 /*HEADER-----------------------------*/
@@ -60,7 +61,6 @@ li img{
 div#widget{
 	width: 40%;
 	float: right;
-	padding-left: 60px;
 	padding-bottom: 40px;
 }
 #widget ul li{
@@ -82,6 +82,14 @@ h1.page-heading{
 }
 
 /*FOOTER-----------------------------*/
+
+div.pagination{
+	margin-left: 20px;
+}
+
+p.rss-subscribe{
+	margin-left: 20px;
+}
 
 footer.site-footer{
 	background-color: #dd3333;
