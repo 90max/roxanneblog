@@ -9,7 +9,7 @@ layout: default
 <h1 class="post-title">Your community</h1>
 
 
-  <!--<ul class="post-list">
+  <ul class="post-list">
 
 {% for post in site.posts %}
   {% if post.categories contains 'community' %}
@@ -23,11 +23,11 @@ layout: default
   {% endif %}
 {% endfor %}
   
-  </ul>-->
+  </ul>
 
-    <ul class="post-list">
+    <!--<ul class="post-list">
       {% for post in paginator.posts %}
-        {% if post.categories contains 'jekyll' %}
+        {% if post.categories contains 'community' %}
         <li>
 
           <img src="{{ post.picture }}" style="height: 100px" align="right"/>
@@ -38,7 +38,6 @@ layout: default
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </h2>
           
-          <!--<img src="{{ post.picture }}" style="height: 100px" align="right"/>-->
           
           <p>
             {{ post.content | strip_html | truncatewords:20 }}
@@ -47,10 +46,10 @@ layout: default
         </li>
         {% endif %}
       {% endfor %}
-    </ul>
+    </ul>-->
 
     <!-- Pagination links -->
-  <div class="pagination">
+ <!--
     {% if paginator.previous_page %}
       <a href="{{ '/roxanneblog' | append: paginator.previous_page_path }}" class="previous">Previous</a>
     {% else %}
@@ -62,7 +61,7 @@ layout: default
     {% else %}
       <span class="next ">Next</span>
     {% endif %}
-  </div>
+  </div>-->
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
