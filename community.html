@@ -63,7 +63,9 @@ layout: default
       <span class="next ">Next</span>
     {% endif %}
   </div>
-</div>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
   <!--<ul class="post-list">
       {% for post in paginator.posts %}
         {% if post.categories contains 'community' %}
@@ -85,4 +87,4 @@ layout: default
       {% endfor %}
     </ul>-->
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  
