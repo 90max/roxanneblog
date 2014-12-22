@@ -78,7 +78,8 @@ div#widget{
 	width: 30%;
 	float: right;
 	padding-bottom: 40px;
-	padding-left: 70px;
+	padding-left: 30px;
+	padding-top: 25px;
 }
 #widget ul li{
 	display: inline;
@@ -121,6 +122,7 @@ h2.footer-heading{
 
 div.footer-col-wrapper{
 	background-color: #EAE5E5;
+	margin-left: 0px;
 
 }
 
