@@ -21,6 +21,16 @@ header.site-header{
 	border-top: none;
 }
 
+a.site-title{
+	padding-top: 50px;
+	padding-left: 20px;
+}
+
+div.trigger{
+	padding-top: 50px;
+	padding-right: 20px;
+}
+
 a#sign-up{
 	border: 1px solid black;
 	padding: 1px;
