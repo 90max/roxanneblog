@@ -26,6 +26,7 @@ a.site-title{
 	padding-bottom: 30px;
 	padding-left: 25px;
 	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
 }
 
 div.nav-links{
@@ -35,8 +36,10 @@ div.nav-links{
 }
 
 div.nav-links a{
-	padding-right: 5px;
+	padding-right: 10px;
 	font-family: 'Raleway', sans-serif;
+	color: black;
+
 }
 
 a#sign-up{
