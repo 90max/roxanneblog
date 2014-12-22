@@ -94,6 +94,10 @@ div.timeline{
 	width: 280px;
 }
 
+element.style{
+	width: 280px;
+}
+
 
 #widget ul li{
 	display: inline;
