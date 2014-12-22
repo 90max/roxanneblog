@@ -66,6 +66,7 @@ ul.post-list{
 	width: 60%;
 	float: left;
 	padding: 20px;
+	margin-left: 17px;
 }
 
 li img{
@@ -83,7 +84,7 @@ h1.post-title{
 /*WIDGETS*/
 
 div#widget{
-	width: 40%;
+	width: 36%;
 	float: right;
 	padding-bottom: 40px;
 	padding-top: 25px;
