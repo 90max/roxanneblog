@@ -1,6 +1,7 @@
 
 div.wrapper{
 	width: 961px;
+	 
 }
 
 div.page-content{
@@ -69,9 +70,12 @@ div#widget{
 
 h1.page-heading{
 	font-size: 40px;
+	color: white;
 	margin-top: 15px;
 	background-color: #dd3333;
-	padding-left: 10px;
+	padding: 20px;
+	margin-left: 35px;
+	margin-right: 35px;
 }
 
 /*FOOTER-----------------------------*/
