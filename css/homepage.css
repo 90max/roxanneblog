@@ -34,7 +34,7 @@ div#carousel-example-generic{
 /*MAIN PAGE--------------------------*/
 
 div.home{
-	margin-top: 32px;
+	/*margin-top: 32px;*/
 	width: 100%;
 	background-color: white;
 }
@@ -42,7 +42,7 @@ div.home{
 
 
 ul.post-list{
-	width: 70%;
+	width: 60%;
 	float: left;
 	
 	padding: 20px;
@@ -58,7 +58,7 @@ li img{
 /*WIDGETS*/
 
 div#widget{
-	width: 30%;
+	width: 40%;
 	float: right;
 	padding-left: 60px;
 	padding-bottom: 40px;
