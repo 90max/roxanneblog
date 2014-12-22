@@ -61,14 +61,13 @@ div.home{
 
 
 ul.post-list{
-	width: 60%;
+	width: 70%;
 	float: left;
 	padding: 20px;
 }
 
 li img{
-	height: 100px;
-	width: 100px;
+	width: 250px;
 	float: left;
 	margin-right: 40px;
 }
@@ -76,7 +75,7 @@ li img{
 /*WIDGETS*/
 
 div#widget{
-	width: 40%;
+	width: 30%;
 	float: right;
 	padding-bottom: 40px;
 	padding-left: 70px;
@@ -118,6 +117,11 @@ footer.site-footer{
 
 h2.footer-heading{
 	margin-top: 0px;
+}
+
+div.footer-col-wrapper{
+	background-color: #EAE5E5;
+
 }
 
 /*COMMUNITY BANNER-------------------*/
