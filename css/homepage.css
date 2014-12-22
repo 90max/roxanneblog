@@ -30,7 +30,6 @@ a.site-title{
 }
 
 div.nav-links{
-	text-decoration: none;
 	padding-top: 73px;
 	padding-right: 30px;
 }
@@ -38,13 +37,24 @@ div.nav-links{
 div.nav-links a{
 	padding-right: 10px;
 	font-family: 'Raleway', sans-serif;
-	color: black;
 
 }
 
 a#sign-up{
 	border: 1px solid black;
 	padding: 1px;
+}
+
+a {
+    color: #0060B6;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     color:#00A0C6; 
+     text-decoration:none; 
+     cursor:pointer;  
 }
 
 /*SLIDER-----------------------------*/
