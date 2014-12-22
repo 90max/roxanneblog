@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "CPost 1"
+title:  "A post about your community"
 date:   2014-12-18 14:25:19
 categories: community
 picture: /roxanneblog/imgs/labour_party.png
