@@ -90,9 +90,10 @@ div#widget{
 	padding-top: 25px;
 }
 
-iframe#twitter-widget-0{
+div#widget ul li#twttr-sandbox-0{
 	width: 280px;
 }
+
 
 #widget ul li{
 	display: inline;
