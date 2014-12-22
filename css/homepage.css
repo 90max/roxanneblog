@@ -21,8 +21,20 @@ header.site-header{
 	border-top: none;
 }
 
+a.site-title{
+	padding-top: 50px;
+	padding-bottom: 30px;
+	padding-left: 25px;
+}
+
 div.nav-links{
 	text-decoration: none;
+	padding-top: 73px;
+	padding-right: 30px;
+}
+
+div.nav-links a{
+	padding-right: 5px;
 }
 
 a#sign-up{
@@ -32,7 +44,6 @@ a#sign-up{
 
 /*SLIDER-----------------------------*/
 div#carousel-example-generic{
-	width: 100%;
 	height: 300px;
 	z-index: 1;
 	margin-bottom: 40px;
@@ -68,7 +79,7 @@ div#widget{
 	width: 40%;
 	float: right;
 	padding-bottom: 40px;
-	padding-left: 40px;
+	padding-left: 70px;
 }
 #widget ul li{
 	display: inline;
@@ -103,6 +114,10 @@ footer.site-footer{
 	border-top: none;
 	padding-top: 0px;
 	padding-bottom: 0px;
+}
+
+h2.footer-heading{
+	margin-top: 0px;
 }
 
 /*COMMUNITY BANNER-------------------*/
