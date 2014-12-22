@@ -83,24 +83,17 @@ h1.post-title{
 /*WIDGETS*/
 
 div#widget{
-	width: 40%;
+	width: 30%;
 	float: right;
 	padding-bottom: 40px;
 	padding-left: 30px;
 	padding-top: 25px;
 }
 
-div.timeline{
-	width: 280px;
+div.twitter-widget-0 {
+  width: 280px;  
 }
 
-iframe.style{
-	width: 280px;
-}
-
-a.twitter-timeline{
-	width: 280px;
-}
 
 
 #widget ul li{
