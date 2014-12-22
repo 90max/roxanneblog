@@ -60,7 +60,7 @@ layout: default
 
 <!-- END OF BOOTSTRAP SLIDER -->
   
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="page-heading">My blog</h1>
   
     <ul class="post-list">
       {% for post in paginator.posts %}
@@ -68,7 +68,7 @@ layout: default
         <li>
 
           <img src="{{ post.picture }}" style="height: 100px" align="right"/>
-          
+
           <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
           <h2>
