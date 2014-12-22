@@ -7,14 +7,16 @@ div.wrapper{
 
 div.page-content{
 	background-color: #dd3333;
+	padding-bottom: 0px;
 }
 
 /*HEADER-----------------------------*/
 header.site-header{
 	background-color:	#dd3333;
-	position: fixed;
+	/*position: fixed;*/
 	width: 100%;
 	z-index: 2;
+	border-bottom: none;
 }
 
 a#sign-up{
