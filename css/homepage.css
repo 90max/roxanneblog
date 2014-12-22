@@ -26,6 +26,10 @@ header.site-header{
 	padding-left: 20px;
 }*/
 
+div.trigger{
+	height: 50px;
+	width: 300px;
+}
 
 
 a#sign-up{
