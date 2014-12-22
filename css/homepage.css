@@ -3,6 +3,10 @@ div.wrapper{
 	width: 961px;
 }
 
+div.page-content{
+	background-color: #dd3333;
+}
+
 /*HEADER-----------------------------*/
 header.site-header{
 	background-color:	#dd3333;
