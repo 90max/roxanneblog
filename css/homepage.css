@@ -30,13 +30,15 @@ div.home{
 ul.post-list{
 	width: 70%;
 	float: left;
+	background-color: #F0F0E8;
+	padding: 20px;
 }
 
 li img{
 	height: 100px;
 	width: 100px;
 	float: left;
-	margin-right: 10px;
+	margin-right: 40px;
 }
 
 /*WIDGETS*/
