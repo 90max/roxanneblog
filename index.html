@@ -13,7 +13,7 @@ layout: default
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-<div class="home">
+
 
 <!--BOOTSTRAP SLIDER -->
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -61,9 +61,11 @@ layout: default
 <!-- END OF BOOTSTRAP SLIDER -->
   <div class='wrapper'>
   <div class='inner-wrapper'>
-  <h1 class="page-heading">My blog</h1>
+  <h1 class="heading1">My blog</h1>
   </div>
   </div>
+  <div class="wrapper">
+  <div class='inner-wrapper'>
     <ul class="post-list">
       {% for post in paginator.posts %}
         {% if post.categories contains 'jekyll' %}
@@ -115,7 +117,8 @@ layout: default
       <span class="next ">Next</span>
     {% endif %}
   </div>
-</div>
+</div><!--inner-wrapper-->
+</div><!--inner-wrapper-->
 
 <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
