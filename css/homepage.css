@@ -25,7 +25,7 @@ header.site-header{
 
 }
 
-div.the-nav{
+div.header{
 	height: 30px;
 	padding-top: 55px;
 	padding-bottom: 12px;
@@ -33,11 +33,16 @@ div.the-nav{
 	border-bottom: 1px solid #e8e8e8; 
 }
 
-div.left{
+div#logo-nav{
 	float: left;
 }
 
-div.right{
+div#logo-nav h1{
+	font-size: 26px;
+}
+
+div#menu{
+	margin-top: 15px;
 	float: right;
 }
 
@@ -54,23 +59,16 @@ div.right{
 	padding-right: 30px;
 }*/
 
-div#logo-nav a{
+ul#main-menu li a{
 	font-family: 'Raleway', sans-serif;
-	font-size: 27px;
+	font-size: 13px;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px 10px 10px 10px;
 
 }
 
 
-div#nav-links a{
-	padding-right: 10px;
-	font-family: 'Raleway', sans-serif;
-
-}
-
-a#sign-up{
-	border: 1px solid black;
-	padding: 1px;
-}
 
 
 /*SLIDER-----------------------------*/
