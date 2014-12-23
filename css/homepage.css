@@ -102,14 +102,18 @@ h1.heading1{
 ul.post-list{
 	width: 60%;
 	float: left;
-	padding: 20px;
-	margin-left: 17px;
+	
+}
+
+ul.post-list li{
+	border-bottom: 1px solid #e8e8e8;
+	margin-bottom: 30px;
 }
 
 li img{
-	width: 250px;
+	width: 200px;
 	float: left;
-	margin-right: 40px;
+	margin-right: 15px;
 	margin-bottom: 20px;
 
 }
