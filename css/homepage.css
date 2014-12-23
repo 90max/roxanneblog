@@ -20,14 +20,13 @@ div.page-content{
 header.site-header{
 	/*position: fixed;*/
 	background-color: #dd3333;
-	width: 100%;
-	z-index: 2;
 	border-bottom: none;
 	border-top: none;
 
 }
 
 div.the-nav{
+	height: 30px;
 	padding-top: 55px;
 	padding-bottom: 12px;
 	margin-bottom: 32px;
