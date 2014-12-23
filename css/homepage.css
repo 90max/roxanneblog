@@ -5,6 +5,11 @@ div.wrapper{
 	 
 }
 
+div.inner-wrapper{
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
 div.page-content{
 	background-color: #dd3333;
 	padding-bottom: 0px;
@@ -41,6 +46,13 @@ div.the-nav{
 	padding-top: 73px;
 	padding-right: 30px;
 }*/
+
+div#logo-nav a{
+	font-family: 'Raleway', sans-serif;
+	font-size: 27px;
+
+}
+
 
 div.nav-links a{
 	padding-right: 10px;
