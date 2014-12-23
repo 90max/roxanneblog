@@ -33,6 +33,14 @@ div.the-nav{
 	border-bottom: 1px solid #e8e8e8; 
 }
 
+div.left{
+	float: left;
+}
+
+div.right{
+	float: right;
+}
+
 /*a.site-title{
 	padding-top: 50px;
 	padding-bottom: 30px;
@@ -53,7 +61,7 @@ div#logo-nav a{
 }
 
 
-div.nav-links a{
+div#nav-links a{
 	padding-right: 10px;
 	font-family: 'Raleway', sans-serif;
 
