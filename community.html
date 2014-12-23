@@ -1,89 +1,37 @@
 ---
 layout: default
 ---
+<div class='wrapper'>
+  <div class='inner-wrapper'>
+    <div id='community-banner'>
+      <img src='' rel='london'>
+    </div>
 
-<div id='community-banner'>
-  <img src='/roxanneblog/imgs/rsz_london.jpg' rel='london'>
+    <h1 class="post-title">Your community</h1>
+
+
+      <ul class="post-list">
+
+    {% for post in site.posts %}
+      {% if post.categories contains 'community' %}
+         <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+            <h2>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+          </li>
+      {% endif %}
+    {% endfor %}
+      
+      </ul>
+
+  </div>
 </div>
 
-<h1 class="post-title">Your community</h1>
-
-
-  <ul class="post-list">
-
-{% for post in site.posts %}
-  {% if post.categories contains 'community' %}
-     <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-  {% endif %}
-{% endfor %}
-  
-  </ul>
-
-    <!--<ul class="post-list">
-      {% for post in paginator.posts %}
-        {% if post.categories contains 'community' %}
-        <li>
-
-          <img src="{{ post.picture }}" style="height: 100px" align="right"/>
-
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-          <h2>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          </h2>
-          
-          
-          <p>
-            {{ post.content | strip_html | truncatewords:20 }}
-          </p>
-
-        </li>
-        {% endif %}
-      {% endfor %}
-    </ul>-->
-
-    <!-- Pagination links -->
- <!--
-    {% if paginator.previous_page %}
-      <a href="{{ '/roxanneblog' | append: paginator.previous_page_path }}" class="previous">Previous</a>
-    {% else %}
-      <span class="previous">Previous</span>
-    {% endif %}
-    <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-    {% if paginator.next_page %}
-      <a href="{{ site.baseurl | append: paginator.next_page_path }}" class="next">Next</a>
-    {% else %}
-      <span class="next ">Next</span>
-    {% endif %}
-  </div>-->
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-  <!--<ul class="post-list">
-      {% for post in paginator.posts %}
-        {% if post.categories contains 'community' %}
-        <li>
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-          <h2>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          </h2>
-          
-          <img src="{{ post.picture }}" style="height: 70px" align="right"/>
-          
-          <p>
-            {{ post.content | strip_html | truncatewords:20 }}
-          </p>
-
-        </li>
-        {% endif %}
-      {% endfor %}
-    </ul>-->
 
   

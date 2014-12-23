@@ -205,12 +205,20 @@ div.footer-col-wrapper{
 div#community-banner{
 	width: 100%;
 	height: 250px;
+	border: 1px dashed black;
 	
 }
+
+
+
 
 /*POSTS PAGE-------------------------*/
 
 div.post img{
 	width: 630px;
 	border: 1px dashed black;
+}
+
+h1.post-title{
+	margin-top: 0px;
 }
