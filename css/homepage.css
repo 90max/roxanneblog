@@ -19,20 +19,28 @@ header.site-header{
 	z-index: 2;
 	border-bottom: none;
 	border-top: none;
+
 }
 
-a.site-title{
+div.the-nav{
+	padding-top: 55px;
+	padding-bottom: 12px;
+	margin-bottom: 32px;
+	border-bottom: 1px solid #e8e8e8; 
+}
+
+/*a.site-title{
 	padding-top: 50px;
 	padding-bottom: 30px;
 	padding-left: 25px;
 	font-family: 'Raleway', sans-serif;
 	text-decoration: none;
-}
+}*/
 
-div.nav-links{
+/*div.nav-links{
 	padding-top: 73px;
 	padding-right: 30px;
-}
+}*/
 
 div.nav-links a{
 	padding-right: 10px;
@@ -45,10 +53,6 @@ a#sign-up{
 	padding: 1px;
 }
 
-div#hr{
-	width: 100%;
-	height: 5px;
-}
 
 /*SLIDER-----------------------------*/
 div#carousel-example-generic{
@@ -67,6 +71,8 @@ div.home{
 }
 
 h1.page-heading{
+	margin-left: 25px;
+	margin-right: 25px;
 	width: 900px;
 	height: 90px;
 
