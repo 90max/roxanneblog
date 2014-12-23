@@ -1,6 +1,6 @@
 
 div.wrapper{
-	width: 961px;
+	width: 963px;
 	background-color: white;
 	 
 }
@@ -67,7 +67,9 @@ div.home{
 }
 
 h1.page-heading{
+	width: 900px;
 	height: 90px;
+
 }
 
 ul.post-list{
