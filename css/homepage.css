@@ -96,18 +96,21 @@ h1.heading1{
 	margin-right: 25px;*/
 	width: 100%;
 	height: 90px;
+	background-color: #dd3333;
+	padding: 25px;
 
 }
 
 ul.post-list{
-	width: 60%;
+	width: 67%;
 	float: left;
 	
 }
 
 ul.post-list li{
 	border-bottom: 1px solid #e8e8e8;
-	margin-bottom: 30px;
+	margin-bottom: 25px;
+	padding-bottom: 40px;
 }
 
 li img{
@@ -125,7 +128,7 @@ h1.post-title{
 /*WIDGETS*/
 
 div#widget{
-	width: 36%;
+	width: 33%;
 	float: right;
 	padding-bottom: 40px;
 	padding-top: 25px;
