@@ -220,5 +220,8 @@ div.post img{
 }
 
 h1.post-title{
-	margin-top: 0px;
+	margin-top: 30px;
+	background-color: #dd3333;
+	height: 90px;
+	padding: 25px; 
 }
