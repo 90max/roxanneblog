@@ -59,9 +59,11 @@ layout: default
 </div>
 
 <!-- END OF BOOTSTRAP SLIDER -->
-  
+  <div class='wrapper'>
+  <div class='inner-wrapper'>
   <h1 class="page-heading">My blog</h1>
-  
+  </div>
+  </div>
     <ul class="post-list">
       {% for post in paginator.posts %}
         {% if post.categories contains 'jekyll' %}
