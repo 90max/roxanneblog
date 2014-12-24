@@ -18,20 +18,16 @@ div.page-content{
 
 /*HEADER-----------------------------*/
 header.site-header{
-	/*position: fixed;*/
 	background-color: #dd3333;
 	border-bottom: none;
 	border-top: none;
-
 }
 
-div.header-holder{
-	padding-top: 40px;
-}
 
 div#logo-nav{
 	float: left;
 	padding-bottom: 15px;
+	padding-top: 40px;
 }
 
 div#logo-nav h1{
@@ -39,23 +35,10 @@ div#logo-nav h1{
 }
 
 div#menu{
-	margin-top: 15px;
 	float: right;
-	padding-top: 13px
+	padding-top: 65px;
 }
 
-/*a.site-title{
-	padding-top: 50px;
-	padding-bottom: 30px;
-	padding-left: 25px;
-	font-family: 'Raleway', sans-serif;
-	text-decoration: none;
-}*/
-
-/*div.nav-links{
-	padding-top: 73px;
-	padding-right: 30px;
-}*/
 
 ul#main-menu a{
 	font-family: 'Raleway', sans-serif;
@@ -85,26 +68,17 @@ div#carousel-example-generic{
 }
 /*MAIN PAGE--------------------------*/
 
-/*div.home{
-	margin-top: 32px;
-	width: 100%;
-	background-color: white;
-}*/
 
 h1.heading1{
-	/*margin-left: 25px;
-	margin-right: 25px;*/
 	width: 100%;
 	height: 90px;
 	background-color: #dd3333;
 	padding: 25px;
-
 }
 
 ul.post-list{
 	width: 67%;
 	float: left;
-	
 }
 
 ul.post-list li{
@@ -119,7 +93,6 @@ li img{
 	margin-right: 15px;
 	margin-bottom: 20px;
 	border: 1px dashed black;
-
 }
 
 h1.post-title{
