@@ -33,10 +33,13 @@ div#logo-nav{
 
 div#logo-nav h1{
 	font-size: 26px;
-	font-weight: bold;
-	color: #454343;
+	font-weight: bold;g
 	letter-spacing: 2px;
 	font-family: Arial, sans-serif;
+}
+
+div#logo-nav h1 a{
+	color: #454343;
 }
 
 div#menu{
@@ -45,14 +48,14 @@ div#menu{
 }
 
 
-ul#main-menu a{
+/*ul#main-menu a{
 	font-family: 'Raleway', sans-serif;
 	font-size: 13px;
 	text-decoration: none;
 	text-transform: uppercase;
 	padding: 10px 10px 10px 10px;
 
-}
+}*/
 
 div#ruling{
 	border-top: 1px solid #e8e8e8;
