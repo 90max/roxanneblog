@@ -28,10 +28,15 @@ div#logo-nav{
 	float: left;
 	padding-bottom: 15px;
 	padding-top: 40px;
+	text-transform: uppercase;
 }
 
 div#logo-nav h1{
 	font-size: 26px;
+	font-weight: bold;
+	color: #454343;
+	letter-spacing: 2px;
+	font-family: Arial, sans-serif;
 }
 
 div#menu{
