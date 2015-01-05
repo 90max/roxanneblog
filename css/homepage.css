@@ -148,7 +148,8 @@ div#widget{
 
 
 #widget ul li{
-	display: inline;
+	display: inline-block;
+	margin-bottom: 50px;
 }
 
 
