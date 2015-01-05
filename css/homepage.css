@@ -47,6 +47,13 @@ div#menu{
 	padding-top: 65px;
 }
 
+div#menu a{
+	color: #757474;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+}
+
 
 /*ul#main-menu a{
 	font-family: 'Raleway', sans-serif;
