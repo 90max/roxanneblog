@@ -224,6 +224,19 @@ h1.post-head{
 /*ABOUT ME PAGE---------------------*/
 
 div.about-me-wrapper{
+	margin-top: 40px;
+	margin-bottom: 40px;
 	margin-left: 100px;
 	margin-right: 100px;
 }
+
+div.about-me-wrapper img{
+	float: left;
+
+}
+
+div.about-me-wrapper p{
+	font-size: 30px;
+	margin-top: 30px;
+}
+
