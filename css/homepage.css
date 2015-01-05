@@ -93,6 +93,7 @@ h1.heading1{
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-weight: bold;
+	margin-top: 0px;
 }
 
 ul.post-list{
