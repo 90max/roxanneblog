@@ -24,7 +24,7 @@ layout: default
 
 
      <ul class="post-list">
-        {% for post in paginator.posts %}
+        {% for post in site.posts %}
           {% if post.categories contains 'community' %}
           <li>
 
@@ -67,7 +67,7 @@ layout: default
 
 <!--PAGINATION LINKS-->
 
-  <div class="pagination">
+  <!--<div class="pagination">
     {% if paginator.previous_page %}
       <a href="{{ '/roxanneblog/community.html' | append: paginator.previous_page_path }}" class="previous">Previous</a>
     {% else %}
@@ -79,7 +79,7 @@ layout: default
     {% else %}
       <span class="next ">Next</span>
     {% endif %}
-  </div>
+  </div>-->
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
