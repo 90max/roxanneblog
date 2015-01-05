@@ -10,25 +10,66 @@ layout: default
     <h1 class="heading1">Your community</h1>
 
 
-      <ul class="post-list">
+     <ul class="post-list">
+        {% for post in paginator.posts %}
+          {% if post.categories contains 'jekyll' %}
+          <li>
 
-    {% for post in site.posts %}
-      {% if post.categories contains 'community' %}
-         <li>
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <img src="" style="height: 130px" align="right"/>
 
             <h2>
               <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
             </h2>
+
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+            <!--<img src="{{ post.picture }}" style="height: 100px" align="right"/>-->
+            
+            <p>
+              {{ post.content | strip_html | truncatewords:40 }}
+            </p>
+
           </li>
-      {% endif %}
-    {% endfor %}
-      
+          {% endif %}
+          {% endfor %}
       </ul>
 
-  </div>
+
+
+<!--WIDGETS-->
+
+<div id='widget'>
+      <ul>
+        <li>
+          <a class="twitter-timeline" href="https://twitter.com/Roxanne_Mashari" data-widget-id="545664821530988544">Tweets by @Roxanne_Mashari</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </li>
+        <li>
+          <div class="fb-like-box" data-href="https://www.facebook.com/labourparty" data-height="70px" data-colorscheme="dark" data-show-faces="true" data-header="true" data-stream="false" data-show-border="false"></div>
+        </li>
+      </ul>
+    </div>
+
+
+
+ </div>
 </div>
 
+<!--PAGINATION LINKS-->
+
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ '/roxanneblog' | append: paginator.previous_page_path }}" class="previous">Previous</a>
+    {% else %}
+      <span class="previous">Previous</span>
+    {% endif %}
+    <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}
+      <a href="{{ site.baseurl | append: paginator.next_page_path }}" class="next">Next</a>
+    {% else %}
+      <span class="next ">Next</span>
+    {% endif %}
+  </div>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
