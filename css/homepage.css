@@ -44,6 +44,8 @@ div#logo-nav h1 a{
 
 div#logo-nav img{
 	height: 150px;
+	width: 135px;
+	border: none;
 }
 
 div#menu{
