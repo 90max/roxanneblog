@@ -29,6 +29,7 @@ div#logo-nav{
 	padding-bottom: 15px;
 	padding-top: 40px;
 	text-transform: uppercase;
+	display: inline-flex;
 }
 
 div#logo-nav h1{
