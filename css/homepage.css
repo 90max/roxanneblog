@@ -42,6 +42,10 @@ div#logo-nav h1 a{
 	color: #454343;
 }
 
+div#logo-nav img{
+	height: 150px;
+}
+
 div#menu{
 	float: right;
 	padding-top: 65px;
