@@ -27,15 +27,16 @@ header.site-header{
 div#logo-nav{
 	float: left;
 	padding-bottom: 15px;
-	padding-top: 40px;
 	text-transform: uppercase;
 	display: inline-flex;
 }
 
 div#logo-nav h1{
 	font-size: 26px;
-	font-weight: bold;g
+	font-weight: bold;
 	letter-spacing: 2px;
+	margin-top: 90px;
+	margin-left: 10px;
 	font-family: Arial, sans-serif;
 }
 
@@ -47,6 +48,7 @@ div#logo-nav img{
 	height: 150px;
 	width: 135px;
 	border: none;
+	margin-top: 25px;
 }
 
 div#menu{
@@ -55,6 +57,7 @@ div#menu{
 	padding-left: 10px;
 	padding-bottom: 10px;
 	border-bottom: 1px solid #e8e8e8;
+	margin-top: 30px;
 }
 
 div#menu a{
