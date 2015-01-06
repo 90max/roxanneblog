@@ -217,6 +217,11 @@ div#community-banner{
 	
 }
 
+div#community-banner img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
 
 
 
