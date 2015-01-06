@@ -248,3 +248,7 @@ div.about-me-wrapper p#fullname{
 	text-align: right;
 }
 
+div.about-me-content{
+	width: 67%;
+	float: left;
+}

@@ -1,6 +1,19 @@
 ---
 layout: default
 ---
+
+<!--javascript SDK for fb likes-->
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
 <div class='wrapper'>
 	<div class='inner-wrapper'>
 		<h1 class='heading1'>About me</h1>
@@ -23,7 +36,25 @@ layout: default
 					<br>
 				Praesent at neque eu sem porttitor aliquam. Sed a viverra nisi. Sed in enim accumsan, sodales eros vitae, tincidunt metus. Vestibulum vel blandit nulla, in placerat nulla. Pellentesque consectetur, tellus consequat viverra euismod, dolor lectus ultrices sapien, eget bibendum tellus ipsum ut neque. Nam egestas massa eget tellus sagittis, vel pharetra turpis semper. Nam id quam tempus, dignissim enim nec, lobortis velit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed commodo tellus nec bibendum ultrices. Cras euismod interdum lorem, a finibus augue lacinia quis. Quisque quis elit pellentesque, eleifend arcu vel, feugiat odio.</p>
 			</div>
-	</div>
-</div>
+
+			<!--WIDGET-->
+
+			<div id='widget'>
+		      <ul>
+		        <li>
+		          <a class="twitter-timeline" href="https://twitter.com/Roxanne_Mashari" data-widget-id="545664821530988544">Tweets by @Roxanne_Mashari</a>
+		          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		        </li>
+		        <li>
+		          <div class="fb-like-box" data-href="https://www.facebook.com/labourparty" data-height="70px" data-colorscheme="dark" data-show-faces="true" data-header="true" data-stream="false" data-show-border="false"></div>
+		        </li>
+		      </ul>
+		    </div>
+
+	</div><!--inner-wrapper-->
+</div><!--wrapper-->
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 
