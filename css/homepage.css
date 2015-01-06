@@ -51,6 +51,9 @@ div#logo-nav img{
 div#menu{
 	float: right;
 	padding-top: 65px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #e8e8e8;
 }
 
 div#menu a{
