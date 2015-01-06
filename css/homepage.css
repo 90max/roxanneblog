@@ -237,12 +237,14 @@ div.about-me-wrapper img{
 }
 
 div.about-me-wrapper p{
-	font-size: 30px;
+	font-size: 33px;
 	margin-top: 30px;
 }
 
 div.about-me-wrapper p#fullname{
 	letter-spacing: 2px;
 	color: #dd3333;
+	font-size: 28px;
+	text-align: right;
 }
 
