@@ -9,6 +9,9 @@
 	div#carousel-example-generic{
 		display: none;
 	}
+	div#widget{
+		display: none;
+	}
 }
 
 /*------------------------------------*/
