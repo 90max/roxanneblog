@@ -7,10 +7,11 @@
     width: 33%; } }*/
 @media screen and (max-width:640px){
 	div.wrapper{
-		display: none;
+		max-width: 100%;
 	}
 	div.inner-wrapper{
-		display: none;
+		margin-left: 0px;
+		margin-right: 0px;
 	}
 
 	div#carousel-example-generic{
