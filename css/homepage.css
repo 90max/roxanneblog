@@ -29,6 +29,14 @@
 	div#community-banner img{
 		display: none;
 	}
+	a.navbar-brand{
+		width: 50%;
+		float: left;
+	}
+	button.navbar-toggle{
+		width: 50%;
+		float: right;
+	}
 }
 
 /*------------------------------------*/
