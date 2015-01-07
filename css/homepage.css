@@ -30,7 +30,7 @@ header.site-header{
 	border-top: none;
 }
 
-ul.navbar-nav.navbar-right{
+ul.nav.navbar-nav {
 	margin-right: -37em;
 	margin-top: -4em;
 }
