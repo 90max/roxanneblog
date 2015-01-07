@@ -53,7 +53,8 @@ a.navbar-brand{
 	font-size: 2.2em;
 	padding-right: 7em;
 	font-family: futuraExt;
-	color: black;
+	border-top: 0.05em solid gray;
+	margin-top: 0.5em;
 
 
 }
@@ -63,9 +64,12 @@ div.navbar-header ul li{
 }
 
 ul.nav.navbar-nav li a{
-	font-family: monospace;
+	font-family: futuraExt;
 	text-transform: uppercase;
 	font-size: 1.1em;
+	border-bottom: 1px solid gray;
+	border-top: 1px solid gray;
+	margin-bottom: 1em;
 }
 
 /*
