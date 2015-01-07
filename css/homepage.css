@@ -36,12 +36,11 @@ header.site-header{
 
 ul.nav.navbar-nav {
 	float: right;
-	margin-top: -4em;
+	margin-top: -16.5em;
 }
 
 a.navbar-brand{
-	font-size: 2.5em;
-	margin-top: 2.5em;
+	
 }
 
 div.navbar-header ul li{
