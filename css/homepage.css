@@ -23,9 +23,11 @@ div.navbar-header{
 }
 
 img#roxanne1{
-	height: 150px;
-	width: 135px;
+	height: 125px;
+	width: 105px;
 	border: none;
+	margin-bottom: 0px;
+	margin-left: 4em;
 }
 
 header.site-header{
@@ -40,7 +42,8 @@ ul.nav.navbar-nav {
 }
 
 a.navbar-brand{
-	
+	font-size: 2.2em;
+
 }
 
 div.navbar-header ul li{
