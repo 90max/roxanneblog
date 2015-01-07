@@ -6,11 +6,19 @@
   #logo-holder {
     width: 33%; } }*/
 @media screen and (max-width:640px){
+	div.wrapper{
+		display: none;
+	}
+	div.inner-wrapper{
+		display: none;
+	}
+
 	div#carousel-example-generic{
 		display: none;
 	}
 	div#widget{
 		display: none;
+		width: 0px;
 	}
 	ul.post-list{
 		width: 100%;
