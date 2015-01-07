@@ -18,6 +18,10 @@ div.page-content{
 
 /*HEADER-----------------------------*/
 
+div.navbar-header{
+	width: 100%;
+}
+
 img#roxanne1{
 	height: 150px;
 	width: 135px;
@@ -31,7 +35,7 @@ header.site-header{
 }
 
 ul.nav.navbar-nav {
-	margin-right: -37em;
+	float: right;
 	margin-top: -4em;
 }
 
