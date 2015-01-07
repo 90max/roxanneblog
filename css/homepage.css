@@ -180,6 +180,13 @@ h1.page-heading{
 	margin-right: 35px;*/
 }
 
+/*SIGN UP----------------------------*/
+
+div#widget ul li p a:visited{
+	color: none;
+}
+
+
 /*FOOTER-----------------------------*/
 
 div.pagination{
@@ -210,7 +217,6 @@ div.footer-col-wrapper{
 /*COMMUNITY BANNER-------------------*/
 
 div#community-banner{
-	border: 1px dashed black;
 	margin-bottom: 40px;
 	
 }
