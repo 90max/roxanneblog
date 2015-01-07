@@ -1,3 +1,18 @@
+
+/*MEDIA QUERIES-----------------------*/
+
+/*@media screen and (max-width: 959px) {
+
+  #logo-holder {
+    width: 33%; } }*/
+@media screen and (max-width:640px){
+	div#carousel-example-generic{
+		display: none;
+	}
+}
+
+/*------------------------------------*/
+
 @font-face {
   font-family: futuraExt;
   src: url(/fonts/FuturaExtended.ttf); }
