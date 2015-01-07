@@ -33,7 +33,7 @@ img#roxanne1{
 	border: none;
 	margin-bottom: 0px;
 	margin-top: 1em;
-	margin-left: 2em;
+	margin-left: 4em;
 	border: 1px solid gray;
 	border-radius: 5%;
 }
@@ -50,11 +50,12 @@ ul.nav.navbar-nav {
 }
 
 a.navbar-brand{
-	font-size: 2.2em;
+	font-size: 1.8em;
 	font-family: futuraExt;
 	border-top: 0.05em solid gray;
 	margin-top: 0.5em;
 	margin-right: 6em;
+	text-transform: uppercase;
 
 
 }
@@ -72,59 +73,7 @@ ul.nav.navbar-nav li a{
 	margin-bottom: 1em;
 }
 
-/*
-div#logo-nav{
-	float: left;
-	padding-bottom: 15px;
-	text-transform: uppercase;
-	display: inline-flex;
-}
 
-div#logo-nav h1{
-	font-size: 26px;
-	font-weight: bold;
-	letter-spacing: 2px;
-	margin-top: 90px;
-	margin-left: 10px;
-	font-family: Arial, sans-serif;
-}
-
-div#logo-nav h1 a{
-	color: #454343;
-}
-
-div#logo-nav img{
-	height: 150px;
-	width: 135px;
-	border: none;
-	margin-top: 25px;
-}
-
-div#menu{
-	float: right;
-	padding-top: 65px;
-	padding-left: 10px;
-	padding-bottom: 10px;
-	border-bottom: 1px solid #e8e8e8;
-	margin-top: 30px;
-}
-
-div#menu a{
-	color: #757474;
-	text-transform: uppercase;
-	text-decoration: none;
-	font-family: Arial, sans-serif;
-}*/
-
-
-/*ul#main-menu a{
-	font-family: 'Raleway', sans-serif;
-	font-size: 13px;
-	text-decoration: none;
-	text-transform: uppercase;
-	padding: 10px 10px 10px 10px;
-
-}*/
 
 div#ruling{
 	border-top: 1px solid #e8e8e8;
@@ -155,7 +104,8 @@ h1.heading1{
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-weight: bold;
-	font-size: 3em;
+	font-size: 2em;
+	font-family: 'Oswald', Arial, serif;
 	margin-top: 0px;
 }
 
@@ -332,4 +282,3 @@ p span{
 }
 
 
-/*navbar-default navbar-static-top*/
