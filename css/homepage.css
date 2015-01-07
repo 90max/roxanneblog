@@ -18,11 +18,16 @@
 		display: none;
 	}
 	div#widget{
-		display: none;
-		width: 0px;
+		width: 0%;
 	}
 	ul.post-list{
 		width: 100%;
+	}
+	div#community-banner{
+		margin-top: 0px;
+	}
+	div#community-banner img{
+		display: none;
 	}
 }
 
