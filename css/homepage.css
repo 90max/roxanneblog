@@ -12,6 +12,9 @@
 	div#widget{
 		display: none;
 	}
+	ul.post-list{
+		width: 100%;
+	}
 }
 
 /*------------------------------------*/
