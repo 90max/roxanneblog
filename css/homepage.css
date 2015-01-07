@@ -32,7 +32,10 @@ img#roxanne1{
 	width: 105px;
 	border: none;
 	margin-bottom: 0px;
+	margin-top: 1em;
 	margin-left: 4em;
+	border: 1px solid gray;
+	border-radius: 5%;
 }
 
 header.site-header{
