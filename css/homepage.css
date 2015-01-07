@@ -44,6 +44,10 @@ a.navbar-brand{
 	margin-top: 2.5em;
 }
 
+div.navbar-header ul li{
+	display: block;
+}
+
 /*
 div#logo-nav{
 	float: left;
