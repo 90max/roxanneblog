@@ -1,3 +1,8 @@
+@font-face {
+  font-family: futuraExt;
+  src: url(/fonts/FuturaExtended.ttf); }
+
+/*------------------------------------*/
 
 div.wrapper{
 	max-width: 963px;
@@ -43,6 +48,10 @@ ul.nav.navbar-nav {
 
 a.navbar-brand{
 	font-size: 2.2em;
+	padding-right: 7em;
+	font-family: futuraExt;
+	color: black;
+
 
 }
 
