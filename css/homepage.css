@@ -36,6 +36,7 @@
 	button.navbar-toggle{
 		width: 50%;
 		float: right;
+		border: none;
 	}
 }
 
