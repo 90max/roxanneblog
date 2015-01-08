@@ -368,6 +368,10 @@ p span{
 		border: none;
 	}
 
+	div.collapse.navbar-collapse.navHeaderCollapse{
+  	margin-top: 9.9em;
+  }
+
 
 /*INDEX.HTML----------------------------------*/
 
