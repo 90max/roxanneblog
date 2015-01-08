@@ -1,64 +1,4 @@
 
-/*MEDIA QUERIES-----------------------*/
-
-@media screen and (max-width: 959px) {
-
-  #logo-holder {
-    width: 33%; } 
-}
-/*@media screen and (max-width:800px){
-
-}   */ 
-@media screen and (max-width:640px){
-	div.wrapper{
-		max-width: 1160px;
-	}
-	div.inner-wrapper{
-		margin-left: 0px;
-		margin-right: 0px;
-	}
-
-	div#carousel-example-generic{
-		display: none;
-	}
-	div#widget{
-		display: none;
-	}
-	ul.post-list{
-		width: 100%;
-	}
-	div#community-banner{
-		margin-top: 0px;
-	}
-	div#community-banner img{
-		display: none;
-	}
-	a.navbar-brand{
-		width: 50%;
-		margin: 0 auto;
-		border-top: none;
-	}
-	button.navbar-toggle{
-		width: 50%;
-		margin: 0 auto;
-		border: none;
-		background-color: none;
-	}
-
-	button.navbar-toggle:focus{
-		background-color: white;
-	}
-
-	img#roxanne1{
-		display: none;
-	}
-
-	ul.nav.navbar-nav li a{
-		border: none;
-	}
-}
-
-/*------------------------------------*/
 
 @font-face {
   font-family: futuraExt;
@@ -344,3 +284,63 @@ p span{
 }
 
 
+/*MEDIA QUERIES-----------------------*/
+
+@media screen and (max-width: 959px) {
+
+  #logo-holder {
+    width: 33%; } 
+}
+/*@media screen and (max-width:800px){
+
+}   */ 
+@media screen and (max-width:640px){
+	div.wrapper{
+		max-width: 1160px;
+	}
+	div.inner-wrapper{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	div#carousel-example-generic{
+		display: none;
+	}
+	div#widget{
+		display: none;
+	}
+	ul.post-list{
+		width: 100%;
+	}
+	div#community-banner{
+		margin-top: 0px;
+	}
+	div#community-banner img{
+		display: none;
+	}
+	a.navbar-brand{
+		width: 50%;
+		margin: 0 auto;
+		border-top: none;
+	}
+	button.navbar-toggle{
+		width: 50%;
+		margin: 0 auto;
+		border: none;
+		background-color: none;
+	}
+
+	button.navbar-toggle:focus{
+		background-color: white;
+	}
+
+	img#roxanne1{
+		display: none;
+	}
+
+	ul.nav.navbar-nav li a{
+		border: none;
+	}
+}
+
+/*------------------------------------*/
