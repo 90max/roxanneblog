@@ -323,8 +323,8 @@ p span{
 
 	}
 
-	div.navbar-header ul{
-		width: 80%;
+	div.navbar-header{
+		display: relative;
 	}
 
 	button.navbar-toggle:focus{
