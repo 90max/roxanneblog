@@ -303,21 +303,9 @@ p span{
 		margin-right: 0px;
 	}
 
-	div#carousel-example-generic{
-		display: none;
-	}
-	div#widget{
-		display: none;
-	}
-	ul.post-list{
-		width: 100%;
-	}
-	div#community-banner{
-		margin-top: 0px;
-	}
-	div#community-banner img{
-		display: none;
-	}
+
+/*HEADER INCLUDE----------------------------*/
+	
 	a.navbar-brand{
 		width: 50%;
 		margin: 0 auto;
@@ -341,6 +329,39 @@ p span{
 	ul.nav.navbar-nav li a{
 		border: none;
 	}
-}
 
+
+/*INDEX.HTML----------------------------------*/
+
+	div#carousel-example-generic{
+		display: none;
+	}
+	div#widget{
+		display: none;
+	}
+	ul.post-list{
+		width: 100%;
+	}
+
+/*COMMUNITY.HTML-----------------------------*/	
+
+	div#community-banner{
+		margin-top: 0px;
+	}
+	div#community-banner img{
+		display: none;
+	}
+
+/*ABOUT-ME.HTML------------------------------*/
+
+	div.about-me-wrapper{
+		margin: 0 auto;
+	}
+
+	div.about-me-wrapper img{
+		margin: 0 auto;
+
+	}
+
+}
 /*------------------------------------*/
