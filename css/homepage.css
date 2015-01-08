@@ -25,6 +25,11 @@ div.page-content{
 
 /*HEADER-----------------------------*/
 
+div.container{
+	max-width: 65em;
+	background-color: white;
+}
+
 div.navbar-header{
 	width: 100%;
 }
