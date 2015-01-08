@@ -309,7 +309,6 @@ p span{
   div.collapse.navbar-collapse.navHeaderCollapse{
   	width: 70%;
   	margin-top: 2em;
-  	position: absolute;
   }
 
   ul.nav.navbar-nav li a{
