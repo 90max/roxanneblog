@@ -25,7 +25,7 @@
 		display: none;
 	}
 	ul.post-list{
-		max-width: 700px;
+		width: 100%;
 	}
 	div#community-banner{
 		margin-top: 0px;
