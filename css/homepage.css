@@ -298,8 +298,14 @@ p span{
 
 @media screen and (max-width: 959px) {
 
-  #logo-holder {
-    width: 33%; } 
+  div.navbar-header ul{
+  	width: 30%;
+  }
+
+  div.collapse.navbar-collapse.navHeaderCollapse{
+  	width: 70%;
+  }
+
 }
 /*@media screen and (max-width:800px){
 
