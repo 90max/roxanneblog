@@ -284,6 +284,10 @@ p span{
 }
 
 
+
+
+
+
 /*MEDIA QUERIES-----------------------*/
 
 @media screen and (max-width: 959px) {
@@ -359,9 +363,24 @@ p span{
 	}
 
 	div.about-me-wrapper img{
-		margin: 0 auto;
+		margin-left: 2.2em;
 
 	}
+
+	div.about-me-content {
+		width: 100%;
+
+	}
+
+
+	div.about-me-wrapper p#fullname {
+		letter-spacing: 2px;
+		color: #dd3333;
+		font-size: 28px;
+		text-align: start;
+		padding-bottom: 1em;
+	}
+
 
 }
 /*------------------------------------*/
