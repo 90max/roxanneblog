@@ -44,9 +44,7 @@
 	}
 
 	img#roxanne1{
-		float: none;
-		width: 50%;
-		margin: 0 auto;
+		display: none;
 	}
 }
 
