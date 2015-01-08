@@ -365,11 +365,13 @@ p span{
 		margin: 0 auto;
 		border-top: none;
 		float: left;
+		margin-bottom: 0.5em;
 	}
 	button.navbar-toggle{
 		float: right;
 		width: 3em;
 		margin: 0 auto;
+		margin-top: 1.5em;
 		border: none;
 		background-color: none;
 
