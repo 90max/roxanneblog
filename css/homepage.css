@@ -24,6 +24,15 @@ div.page-content{
 }
 
 /*HEADER-----------------------------*/
+li#left{
+	float: left;
+	width: 50%;
+}
+
+li#right{
+	float: right;
+	width: 50%;
+}
 
 div.container-fluid{
 	max-width: 65em;
