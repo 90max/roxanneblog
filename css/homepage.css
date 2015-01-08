@@ -22,10 +22,10 @@
 		display: none;
 	}
 	div#widget{
-		width: 0%;
+		display: none;
 	}
 	ul.post-list{
-		width: 100%;
+		max-width: 700px;
 	}
 	div#community-banner{
 		margin-top: 0px;
