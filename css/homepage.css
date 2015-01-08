@@ -36,7 +36,7 @@ img#roxanne1{
 	margin-bottom: 0px;
 	margin-top: 1em;
 	margin-left: 4em;
-	border: 1px solid gray;
+	border: 1px solid black;
 	border-radius: 5%;
 }
 
@@ -52,6 +52,7 @@ ul.nav.navbar-nav {
 }
 
 a.navbar-brand{
+	color: black;
 	font-size: 1.8em;
 	font-family: futuraExt;
 	border-top: 0.05em solid gray;
@@ -185,8 +186,12 @@ h1.page-heading{
 /*SIGN UP----------------------------*/
 
 div#widget ul li p a:visited{
-	color: none;
+	color: blue;
 }
+div#widget ul li p{
+	margin-left: 0.5em;
+}
+
 
 
 /*FOOTER-----------------------------*/
