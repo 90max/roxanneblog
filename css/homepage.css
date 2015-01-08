@@ -364,6 +364,10 @@ p span{
 		display: none;
 	}
 
+	ul.nav.navbar-nav {
+		float: none;
+	}
+
 	ul.nav.navbar-nav li a{
 		border: none;
 	}
