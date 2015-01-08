@@ -52,15 +52,16 @@ ul.nav.navbar-nav {
 }
 
 a.navbar-brand{
-	color: black;
 	font-size: 1.8em;
 	font-family: futuraExt;
 	border-top: 0.05em solid gray;
 	margin-top: 0.5em;
 	margin-right: 6em;
 	text-transform: uppercase;
+}
 
-
+.navbar-default .navbar-brand {
+color: black;
 }
 
 div.navbar-header ul li{
