@@ -348,11 +348,12 @@ p span{
 		width: 100%;
 		margin: 0 auto;
 		border-top: none;
+		float: left;
 	}
 	button.navbar-toggle{
+		float: right;
 		width: 3em;
 		margin: 0 auto;
-		margin-bottom: 4.5em;
 		border: none;
 		background-color: none;
 
