@@ -41,10 +41,16 @@
 		width: 50%;
 		float: right;
 		border: none;
+		background-color: none;
 	}
 
 	img#roxanne1{
 		display: none;
+	}
+
+	ul.nav.navbar-nav li a{
+		border-top: none;
+		border-bottom: none;
 	}
 }
 
