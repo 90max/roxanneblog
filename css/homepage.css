@@ -34,11 +34,11 @@
 		display: none;
 	}
 	a.navbar-brand{
-		width: 50%;
+		width: 100%;
 		float: left;
 	}
 	button.navbar-toggle{
-		width: 50%;
+		width: 100%;
 		float: right;
 		border: none;
 		background-color: none;
