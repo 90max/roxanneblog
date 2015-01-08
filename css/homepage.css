@@ -302,9 +302,9 @@ p span{
 
 @media screen and (max-width: 959px) {
 
-  div.navbar-header ul{
+  /*div.navbar-header ul{
   	width: 30%;
-  }
+  }*/
 
   div.collapse.navbar-collapse.navHeaderCollapse{
   	width: 70%;
@@ -320,7 +320,12 @@ p span{
   }
 
   img#roxanne1{
-  	margin-left: 0.5em;
+  	margin-left: 2.5em;
+  }
+
+  a.navbar-brand{
+  	margin: 0px;
+  	margin-top: 1em;
   }
 
 }
