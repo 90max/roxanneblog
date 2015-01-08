@@ -34,12 +34,13 @@
 		display: none;
 	}
 	a.navbar-brand{
-		width: 100%;
-		float: left;
+		width: 50%;
+		margin: 0 auto;
+		border-top: none;
 	}
 	button.navbar-toggle{
-		width: 100%;
-		float: right;
+		width: 50%;
+		margin: 0 auto;
 		border: none;
 		background-color: none;
 	}
