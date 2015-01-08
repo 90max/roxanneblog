@@ -316,11 +316,15 @@ p span{
 		border-top: none;
 	}
 	button.navbar-toggle{
-		width: 55px;
+		width: 3em;
 		margin: 0 auto;
 		border: none;
 		background-color: none;
 
+	}
+
+	div.navbar-header ul{
+		width: 80%;
 	}
 
 	button.navbar-toggle:focus{
