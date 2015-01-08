@@ -304,6 +304,19 @@ p span{
 
   div.collapse.navbar-collapse.navHeaderCollapse{
   	width: 70%;
+  	margin-top: 2em;
+  }
+
+  ul.nav.navbar-nav li a{
+  	margin-bottom: 0px;
+  	border-bottom: none;
+  	border-top: none;
+  	border-left: 1px solid gray;
+
+  }
+
+  img#roxanne1{
+  	margin-left: 0.5em;
   }
 
 }
