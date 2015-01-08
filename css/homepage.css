@@ -25,7 +25,7 @@ div.page-content{
 
 /*HEADER-----------------------------*/
 
-div.container{
+div.container-fluid{
 	max-width: 65em;
 	background-color: white;
 }
