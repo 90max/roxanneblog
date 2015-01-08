@@ -311,12 +311,12 @@ p span{
 /*HEADER INCLUDE----------------------------*/
 	
 	a.navbar-brand{
-		width: 50%;
+		width: 100%;
 		margin: 0 auto;
 		border-top: none;
 	}
 	button.navbar-toggle{
-		width: 50%;
+		width: 100%;
 		margin: 0 auto;
 		border: none;
 		background-color: none;
