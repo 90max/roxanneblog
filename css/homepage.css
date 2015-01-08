@@ -343,8 +343,8 @@ p span{
 
 
 /*HEADER INCLUDE----------------------------*/
-	
-	a.navbar-brand{
+	/*a.navbar-brand*/
+	a.brand{
 		width: 100%;
 		margin: 0 auto;
 		border-top: none;
