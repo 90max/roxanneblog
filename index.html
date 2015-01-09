@@ -72,7 +72,7 @@ layout: default
           <li>
 
             <img src="{{post.picture}}" style="height: 130px" align="right"/>
-
+<div id='post-content'>
             <h2>
               <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
             </h2>
@@ -84,7 +84,7 @@ layout: default
             <p>
               {{ post.content | strip_html | truncatewords:40 }}
             </p>
-
+</div>
           </li>
           {% endif %}
         {% endfor %}
