@@ -382,7 +382,11 @@ p span{
 
 	ul#navholder{
   	display: inline-block;
-  }
+  	}
+
+  	div.collapse.navbar-collapse.navHeaderCollapse{
+		margin-top: 6em;
+	}
 
 	a.navbar-brand{
 		width: 100%;
