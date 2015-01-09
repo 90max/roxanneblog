@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 ---
@@ -11,4 +11,3 @@ picture: /roxanneblog/imgs/community.jpg
 ---
 
 ## A new post about the community
-
