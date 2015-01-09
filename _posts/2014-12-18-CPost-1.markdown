@@ -3,7 +3,7 @@ layout: post
 title:  "A post about your community"
 date:   2014-12-18 14:25:19
 categories: community
-picture: 
+picture: /roxanneblog/imgs/community.jpg
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu condimentum nisi, sit amet pretium libero. Aliquam non metus quam. Nam varius eget mauris vitae euismod. Pellentesque ante velit, tincidunt sed tortor in, malesuada semper orci. Donec consectetur in magna ac ornare. Aenean ut turpis et nisi lacinia hendrerit. Ut lacus elit, gravida sit amet aliquet egestas, ultrices congue diam.
