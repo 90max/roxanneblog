@@ -166,8 +166,10 @@ a:visited{
 }
 
 a.post-link{
-	font-size: 30px;
+	font-size: 26px;
 	display: inline;
+	font-weight: normal;
+	color: #333;
 }
 /*WIDGETS*/
 
@@ -188,6 +190,7 @@ div#widget{
 #widget ul li{
 	display: inline-block;
 	margin-bottom: 50px;
+	font-weight: bold;
 }
 
 
