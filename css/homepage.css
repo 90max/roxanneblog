@@ -336,11 +336,19 @@ p span{
   }
 
   img#roxanne1{
-  	margin-left: 2.5em;
+  	margin-left: 0.6em;
   }
 
   a.navbar-brand{
   	margin: 0px;
+  	margin-top: 1em;
+  }
+
+  li#left{
+  	margin-bottom: 0.5em;
+  }
+
+  li#right{
   	margin-top: 1em;
   }
 
