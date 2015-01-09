@@ -50,7 +50,7 @@ img#roxanne1{
 	margin-bottom: 0px;
 	margin-top: 1em;
 	margin-left: 0.5em;
-	border: 1px solid black;
+	border: 2px solid black;
 	border-radius: 5%;
 }
 
@@ -68,7 +68,7 @@ ul.nav.navbar-nav {
 a.navbar-brand{
 	font-size: 1.8em;
 	font-family: futuraExt;
-	border-top: 0.05em solid gray;
+	border-top: 0.07em solid black;
 	margin-top: 0.5em;
 	margin-right: 6em;
 	text-transform: uppercase;
