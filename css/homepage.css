@@ -162,7 +162,7 @@ a{
 }
 
 a:visited{
-	color: black;
+	color: red;
 }
 
 a.post-link{
@@ -222,6 +222,8 @@ div#widget ul li p{
 
 div.pagination{
 	margin-left: 20px;
+	font-weight: bold;
+	color: red;
 }
 
 p.rss-subscribe{
@@ -266,7 +268,8 @@ div#community-banner img{
 
 div.post img{
 	width: 630px;
-	border: 1px dashed black;
+	margin-top: 6px;
+	margin-bottom: 40px;
 }
 
 h1.post-head{
