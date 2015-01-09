@@ -1,51 +1,481 @@
-/*HEADER-----------------------------*/
-header.site-header{
-	background-color:	#dd3333;
-	position: fixed;
-	width: 100%;
-	z-index: 2;
+
+
+@font-face {
+  font-family: futuraExt;
+  src: url(/fonts/FuturaExtended.ttf); }
+
+/*------------------------------------*/
+
+div.wrapper{
+	max-width: 963px;
+	background-color: white;
+	 
 }
+
+div.inner-wrapper{
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+div.page-content{
+	background-color: #dd3333;
+	padding-bottom: 0px;
+	padding: 0px;
+}
+
+/*HEADER-----------------------------*/
+li#left{
+	float: left;
+	width: 50%;
+}
+
+li#right{
+	float: right;
+	width: 50%;
+}
+
+div.container-fluid{
+	max-width: 65em;
+	background-color: white;
+}
+
+div.navbar-header{
+	width: 100%;
+}
+
+img#roxanne1{
+	height: 125px;
+	width: 105px;
+	border: none;
+	margin-bottom: 0px;
+	margin-top: 1em;
+	margin-left: 0.5em;
+	border: 2px solid black;
+	border-radius: 5%;
+}
+
+header.site-header{
+	background-color: #dd3333;
+	border-bottom: none;
+	border-top: none;
+}
+
+ul.nav.navbar-nav {
+	float: right;
+	
+}
+
+a.navbar-brand{
+	font-size: 1.8em;
+	font-family: futuraExt;
+	border-top: 0.07em solid black;
+	margin-top: 0.5em;
+	margin-right: 6em;
+	text-transform: uppercase;
+	width: 6em;
+	margin-bottom: 0.7em;
+}
+
+.navbar-default .navbar-brand {
+color: black;
+}
+
+div.navbar-header ul li{
+	display: block;
+}
+
+ul.nav.navbar-nav li a{
+	font-family: futuraExt;
+	text-transform: uppercase;
+	font-size: 1.1em;
+	border-bottom: 1px solid gray;
+	border-top: 1px solid gray;
+	margin-bottom: 1em;
+}
+
+div.collapse.navbar-collapse.navHeaderCollapse{
+  	margin-top: 10.9em;
+  }
+
+
+
+div#ruling{
+	border-top: 1px solid #e8e8e8;
+	padding-bottom: 35px;
+	background-color: white;
+}
+
+
+
 
 /*SLIDER-----------------------------*/
 div#carousel-example-generic{
-	width: 100%;
-	height: 300px;
+	height: 350px;
 	z-index: 1;
-	
+	margin-bottom: 40px;
+	margin-right: 25px;
+	margin-left: 25px;
 }
 /*MAIN PAGE--------------------------*/
 
-div.home{
-	margin-top: 62px;
+
+h1.heading1{
 	width: 100%;
+	height: 100%;
+	background-color: #dd3333;
+	padding: 25px;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+	font-size: 2em;
+	font-family: 'Oswald', Arial, serif;
+	margin-top: 0px;
 }
 
-
-
 ul.post-list{
-	width: 70%;
+	width: 67%;
 	float: left;
 }
 
-li img{
-	height: 100px;
-	width: 100px;
+ul.post-list li{
+	border-bottom: 1px solid #e8e8e8;
+	margin-bottom: 25px;
+	padding-bottom: 40px;
 }
 
-div#widget{
-	width: 30%;
-	float: right;
+li img{
+	width: 200px;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 20px;
 }
+
+h1.post-title{
+	margin-top: 0px;
+}
+
+a{
+	color: black;
+	padding-right: 15px;
+}
+
+a:visited{
+	color: black;
+}
+
+a.post-link{
+	font-size: 26px;
+	display: inline;
+	font-weight: normal;
+	color: #333;
+}
+/*WIDGETS*/
+
+div#widget{
+	width: 33%;
+	float: right;
+	padding-bottom: 40px;
+	padding-top: 25px;
+}
+
+
+#twitter-widget-0 { 
+      width: 280px !important; 
+    }
+
+
+
+#widget ul li{
+	display: inline-block;
+	margin-bottom: 50px;
+	font-weight: bold;
+}
+
+
+
+
 
 h1.page-heading{
 	font-size: 40px;
+	color: white;
 	margin-top: 15px;
 	background-color: #dd3333;
-	padding-left: 10px;
+	padding: 20px;
+	/*margin-left: 35px;
+	margin-right: 35px;*/
 }
+
+/*SIGN UP----------------------------*/
+
+div#widget ul li p a:visited{
+	color: blue;
+}
+div#widget ul li p{
+	margin-left: 0.5em;
+}
+
+
 
 /*FOOTER-----------------------------*/
 
+div.pagination{
+	margin-left: 20px;
+}
+
+p.rss-subscribe{
+	margin-left: 20px;
+}
+
 footer.site-footer{
 	background-color: #dd3333;
+	border-top: none;
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
+
+h2.footer-heading{
+	margin-top: 0px;
+}
+
+div.footer-col-wrapper{
+	background-color: #EAE5E5;
+	margin-left: 0px;
+
+}
+
+/*COMMUNITY BANNER-------------------*/
+
+div#community-banner{
+	margin-bottom: 40px;
+	
+}
+
+div#community-banner img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+
+
+
+
+
+/*POSTS PAGE-------------------------*/
+
+div.post img{
+	width: 630px;
+	border: 1px dashed black;
+}
+
+h1.post-head{
+	margin-top: 30px;
+	background-color: #dd3333;
+	height: 90px;
+	padding: 25px; 
+}
+
+/*ABOUT ME PAGE---------------------*/
+
+div.about-me-wrapper{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+div.about-me-wrapper img{
+	float: left;
+	margin-bottom: 50px;
+
+}
+
+div.about-me-wrapper p{
+	font-size: 33px;
+	margin-top: 30px;
+}
+
+div.about-me-wrapper p#fullname{
+	letter-spacing: 2px;
+	color: #dd3333;
+	font-size: 28px;
+	text-align: right;
+}
+
+div.about-me-content{
+	width: 67%;
+	float: left;
+}
+
+/*CONTACT ME PAGE---------------------------*/
+
+p span{
+	font-weight: bold;
+}
+
+
+
+
+
+
+/*MEDIA QUERIES-----------------------*/
+
+@media screen and (max-width: 959px) {
+
+
+  div.collapse.navbar-collapse.navHeaderCollapse{
+  	width: 70%;
+  	margin-top: 2em;
+  }
+
+  ul.nav.navbar-nav li a{
+  	margin-bottom: 0px;
+  	border-bottom: none;
+  	border-top: none;
+  	border-left: 1px solid gray;
+
+  }
+
+  img#roxanne1{
+  	margin-left: 0.6em;
+  }
+
+  a.navbar-brand{
+  	margin: 0px;
+  	margin-top: 1em;
+  }
+
+  li#left{
+  	margin-bottom: 0.5em;
+  }
+
+  li#right{
+  	margin-top: 1em;
+  }
+
+}
+/*@media screen and (max-width:800px){
+
+}   */ 
+@media screen and (max-width:640px){
+	div.wrapper{
+		max-width: 1160px;
+	}
+	div.inner-wrapper{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+
+/*HEADER INCLUDE----------------------------*/
+	/*a.navbar-brand*/
+
+	li#right{
+		width: 60%;
+		margin-top: 0.5em;
+	}
+
+	li#left{
+		width: 40%;
+	}
+
+	ul#navholder{
+  	display: inline-block;
+  	}
+
+  	div.collapse.navbar-collapse.navHeaderCollapse{
+		margin-top: 6em;
+		margin-left: 4em;
+	}
+
+	a.navbar-brand{
+		width: 100%;
+		margin: 0 auto;
+		border-top: none;
+		float: left;
+		margin-bottom: 0.5em;
+	}
+	button.navbar-toggle{
+		float: right;
+		width: 3em;
+		margin: 0 auto;
+		margin-top: 1.5em;
+		border: none;
+		background-color: none;
+
+	}
+
+	div.navbar-header{
+		display: relative;
+	}
+
+	button.navbar-toggle:focus{
+		background-color: white;
+	}
+
+	img#roxanne1{
+		display: none;
+	}
+
+	ul.nav.navbar-nav {
+		float: none;
+	}
+
+	ul.nav.navbar-nav li a{
+		border: none;
+	}
+
+	/*div.collapse.navbar-collapse.navHeaderCollapse{
+  	margin-top: 9.9em;
+ 	}*/
+
+
+/*INDEX.HTML----------------------------------*/
+
+	div#carousel-example-generic{
+		display: none;
+	}
+	div#widget{
+		display: none;
+	}
+	ul.post-list{
+		width: 100%;
+	}
+
+/*COMMUNITY.HTML-----------------------------*/	
+
+	div#community-banner{
+		margin-top: 0px;
+	}
+	div#community-banner img{
+		display: none;
+	}
+
+/*ABOUT-ME.HTML------------------------------*/
+
+	div.about-me-wrapper{
+		margin: 0 auto;
+	}
+
+	div.about-me-wrapper img{
+		margin-left: 2.2em;
+
+	}
+
+	div.about-me-content {
+		width: 100%;
+
+	}
+
+
+	div.about-me-wrapper p#fullname {
+		letter-spacing: 2px;
+		color: #dd3333;
+		font-size: 28px;
+		text-align: start;
+		padding-bottom: 1em;
+	}
+
+
+}
+/*------------------------------------*/
