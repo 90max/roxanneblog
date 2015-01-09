@@ -389,6 +389,7 @@ p span{
 
   	div.collapse.navbar-collapse.navHeaderCollapse{
 		margin-top: 6em;
+		margin-left: 4em;
 	}
 
 	a.navbar-brand{
