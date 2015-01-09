@@ -3,7 +3,7 @@ layout: post
 title:  "Post 5"
 date:   2015-01-06 16:25:19
 categories: jekyll update
-picture: /roxanneblog/imgs/labour_party.png
+picture: /roxanneblog/imgs/labourfam.jpg
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu condimentum nisi, sit amet pretium libero. Aliquam non metus quam. Nam varius eget mauris vitae euismod. Pellentesque ante velit, tincidunt sed tortor in, malesuada semper orci. Donec consectetur in magna ac ornare. Aenean ut turpis et nisi lacinia hendrerit. Ut lacus elit, gravida sit amet aliquet egestas, ultrices congue diam.
 
