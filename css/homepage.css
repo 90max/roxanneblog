@@ -270,7 +270,9 @@ div#community-banner img{
 div.post img{
 	max-width: 630px;
 	padding: 6px;
-	background-color: #4777BD;
+	background-color: #dd3333;
+	margin-left: 1.5em;
+	margin-bottom: 1.5em;
 }
 
 h1.post-head{
