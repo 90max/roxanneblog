@@ -112,13 +112,15 @@ layout: default
     {% if paginator.previous_page %}
       <a href="{{ '/roxanneblog' | append: paginator.previous_page_path }}" class="previous">Previous</a>
     {% else %}
-      <span class="previous">Previous</span>
+      <!--<span class="previous">Previous</span>-->
+      <span class='glyphicon glyphicon-chevron-left'></span>
     {% endif %}
     <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
     {% if paginator.next_page %}
       <a href="{{ site.baseurl | append: paginator.next_page_path }}" class="next">Next</a>
     {% else %}
-      <span class="next ">Next</span>
+      <span class='glyphicon glyphicon-chevron-right'></span>
+      <!--<span class="next ">Next</span>-->
     {% endif %}
   </div>
 
