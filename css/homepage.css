@@ -126,10 +126,10 @@ h1.heading1{
 	padding: 25px;
 	color: white;
 	text-transform: uppercase;
-	letter-spacing: 1px;
+	letter-spacing: -2px;
 	font-weight: bold;
 	font-size: 2em;
-	font-family: 'Oswald', Arial, serif;
+	font-family: futuraExt, Arial, serif;
 	margin-top: 0px;
 }
 
@@ -225,6 +225,7 @@ div.pagination {
 	color: #dd3333;
 	margin: 0px;
 	margin-left: 25px;
+	padding-bottom: 20px;
 }
 
 p.rss-subscribe{
