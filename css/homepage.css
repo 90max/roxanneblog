@@ -210,7 +210,7 @@ h1.page-heading{
 /*SIGN UP----------------------------*/
 
 div#widget ul li p a:visited{
-	color: blue;
+	color: #4777BD;
 }
 div#widget ul li p{
 	margin-left: 0.5em;
@@ -220,10 +220,11 @@ div#widget ul li p{
 
 /*FOOTER-----------------------------*/
 
-div.pagination{
-	margin-left: 20px;
+div.pagination {
 	font-weight: bold;
-	color: red;
+	color: #dd3333;
+	margin: 0px;
+	margin-left: 25px;
 }
 
 p.rss-subscribe{
@@ -267,9 +268,10 @@ div#community-banner img{
 /*POSTS PAGE-------------------------*/
 
 div.post img{
-	width: 630px;
-	margin-top: 6px;
+	max-width: 630px;
+	padding: 6px;
 	margin-bottom: 40px;
+	background-color: #4777BD;
 }
 
 h1.post-head{
