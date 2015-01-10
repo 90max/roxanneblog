@@ -131,6 +131,7 @@ h1.heading1{
 	font-size: 2em;
 	font-family: futuraExt, Arial, serif;
 	margin-top: 0px;
+	border-radius: 4px;
 }
 
 ul.post-list{
