@@ -272,7 +272,7 @@ div#community-banner img{
 div#post-img{
 	width: 400px;
 	height: 400px;
-	background-image: url('{{page.picture}}');
+	background-image: url('../imgs/community.jpg');
 	background-size: cover;
 }
 
