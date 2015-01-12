@@ -271,7 +271,7 @@ div#community-banner img{
 div#post-img{
 	width: 400px;
 	height: 400px;
-	position: absolute;
+	position: relative;
 	left: 0px;
 	top: 0px;
 	z-index: 0;
