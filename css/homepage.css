@@ -269,9 +269,13 @@ div#community-banner img{
 
 /*POSTS PAGE-------------------------*/
 div#post-img{
-	width: 500px;
-	height: 400px;
+	max-width: 500px;
+	max-height: 400px;
 	overflow: hidden;
+	margin: auto;
+	margin-bottom: 1.5em;
+	padding: 6px;
+	background-color: #dd3333;
 }
 
 img.stretch{
