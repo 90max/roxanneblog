@@ -4,14 +4,13 @@ layout: default
 <div class='inner-wrapper'>
 	<div class="post">
 	<!--<img src="{{page.picture}}" style="max-height: 472px" align="right"/>-->
-	<h1 class="post-title">{{ page.title }}</h1>
+	<header class="post-header">
+	    <h1 class="post-title">{{ page.title }}</h1>
+	    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+	  </header>
 	<div id='post-img'>
 		<img class='stretch' src="{{page.picture}}"/>
 	</div>
-	  <header class="post-header">
-	    
-	    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-	  </header>
 
 	  <article class="post-content">
 	    {{ content }}

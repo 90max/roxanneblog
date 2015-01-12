@@ -281,6 +281,10 @@ div#post-img{
 img.stretch{
 	width: 100%;
 }
+
+header.post-header{
+	margin-bottom: 1em;
+}
 /*div.post img{
 	max-width: 630px;
 	padding: 6px;
