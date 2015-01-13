@@ -426,8 +426,8 @@ p span{
   	}
 
   	div.collapse.navbar-collapse.navHeaderCollapse{
-		margin-top: 6em;
-		margin-left: 4em;
+		/*margin-top: 6em;
+		margin-left: 4em;*/
 	}
 
 	a.navbar-brand{
@@ -445,6 +445,7 @@ p span{
 		margin-top: 1.5em;
 		border: none;
 		background-color: none;
+		position: absolute;
 
 	}
 
