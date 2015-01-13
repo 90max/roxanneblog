@@ -416,9 +416,15 @@ p span{
 		width: 60%;
 		margin-top: 0.5em;
 	}*/
+	li#right{
+		float: none;
+		width: 100%;
+	}
 
 	li#left{
-		width: 40%;
+		float: none;
+		width: 100%;
+		/*width: 40%;*/
 	}
 
 	ul#navholder{
