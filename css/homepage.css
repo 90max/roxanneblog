@@ -412,10 +412,10 @@ p span{
 	  transition: height 0;
 	}
 
-	li#right{
+	/*li#right{
 		width: 60%;
 		margin-top: 0.5em;
-	}
+	}*/
 
 	li#left{
 		width: 40%;
