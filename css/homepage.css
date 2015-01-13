@@ -24,6 +24,8 @@ div.page-content{
 }
 
 /*HEADER-----------------------------*/
+
+
 li#left{
 	float: left;
 	width: 50%;
@@ -401,6 +403,14 @@ p span{
 
 /*HEADER INCLUDE----------------------------*/
 	/*a.navbar-brand*/
+
+	.no-transition {
+	  -webkit-transition: height 0;
+	  -moz-transition: height 0;
+	  -ms-transition: height 0;
+	  -o-transition: height 0;
+	  transition: height 0;
+	}
 
 	li#right{
 		width: 60%;
