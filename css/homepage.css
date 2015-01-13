@@ -141,7 +141,7 @@ ul.post-list{
 
 ul.post-list li{
 	border-bottom: 1px solid #e8e8e8;
-	margin-bottom: 25px;
+	margin-bottom: 11px;
 	padding-bottom: 40px;
 }
 
@@ -190,7 +190,7 @@ div#widget{
 
 #widget ul li{
 	display: inline-block;
-	margin-bottom: 50px;
+	margin-bottom: 15px;
 	font-weight: bold;
 }
 
