@@ -49,7 +49,8 @@ img#roxanne1{
 	border: none;
 	margin-bottom: 0px;
 	margin-top: 1em;
-	margin-left: 0.5em;
+	margin-left: 4.7em;
+	/*margin-left: 0.5em;*/
 	border: 2px solid black;
 	border-radius: 5%;
 }
@@ -70,9 +71,10 @@ a.navbar-brand{
 	font-family: futuraExt;
 	border-top: 0.07em solid black;
 	margin-top: 0.5em;
-	margin-right: 6em;
+	/*margin-right: 6em;*/
 	text-transform: uppercase;
-	width: 6em;
+	/*width: 6em;*/
+	width: 11em;
 	margin-bottom: 0.7em;
 }
 
