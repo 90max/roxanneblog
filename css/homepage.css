@@ -432,9 +432,9 @@ p span{
 
 	ul#navholder{
   	display: inline-block;
-  	margin-left: 0;
   	margin-top: 0;
-  	margin-left: 1em;
+  	margin-left: auto;
+  	margin-right: auto;
   	}
 
   	div.collapse.navbar-collapse.navHeaderCollapse{
