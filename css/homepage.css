@@ -404,6 +404,10 @@ p span{
 /*HEADER INCLUDE----------------------------*/
 	/*a.navbar-brand*/
 
+	.navbar.navbar-default.navbar-static-top{
+		border: none;
+	}
+
 	.no-transition {
 	  -webkit-transition: height 0;
 	  -moz-transition: height 0;
