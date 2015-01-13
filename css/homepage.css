@@ -442,6 +442,7 @@ p span{
   	}
 
   	div.collapse.navbar-collapse.navHeaderCollapse{
+		border: none;
 		/*margin-top: 6em;
 		margin-left: 4em;*/
 	}
