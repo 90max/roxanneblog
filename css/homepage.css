@@ -430,6 +430,8 @@ p span{
 
 	ul#navholder{
   	display: inline-block;
+  	margin-left: 0;
+  	margin-top: 0;
   	}
 
   	div.collapse.navbar-collapse.navHeaderCollapse{
