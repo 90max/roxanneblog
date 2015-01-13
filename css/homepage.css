@@ -417,6 +417,7 @@ p span{
 		margin-top: 0.5em;
 	}*/
 	li#right{
+		margin-top: 0;
 		float: none;
 		width: 100%;
 	}
