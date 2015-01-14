@@ -525,6 +525,10 @@ p span{
 		width: 100%;
 	}
 
+	h1.heading1{
+		margin-top: 20px;
+	}
+
 /*COMMUNITY.HTML-----------------------------*/	
 
 	div#community-banner{
