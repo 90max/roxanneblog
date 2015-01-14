@@ -406,7 +406,7 @@ p span{
 	/*a.navbar-brand*/
 
 	.navbar-default .navbar-collapse, .navbar-default .navbar-form{
-		border-color: white;
+		border: none;
 	}
 
 	.navbar.navbar-default.navbar-static-top{
