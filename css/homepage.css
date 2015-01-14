@@ -446,6 +446,10 @@ p span{
 		width: 100%;
 	}
 
+	li#left ul{
+		margin-left: 0;
+	}
+
 	ul#navholder{
   	display: inline-block;
   	margin-top: 0;
