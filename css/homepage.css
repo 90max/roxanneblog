@@ -407,6 +407,7 @@ p span{
 
 	.navbar-default .navbar-collapse, .navbar-default .navbar-form{
 		border: none;
+
 	}
 
 	.navbar.navbar-default.navbar-static-top{
@@ -491,7 +492,7 @@ p span{
 		border: none;
 	}
 	button.navbar-toggle.collapsed{
-		margin-top: -1em;
+		
 		margin-left: 6.5em;
 
 	}
