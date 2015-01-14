@@ -405,6 +405,10 @@ p span{
 /*HEADER INCLUDE----------------------------*/
 	/*a.navbar-brand*/
 
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+		border-color: white;
+	}
+
 	.navbar.navbar-default.navbar-static-top{
 		border: none;
 	}
