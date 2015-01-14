@@ -492,7 +492,7 @@ p span{
 		border: none;
 	}
 	button.navbar-toggle.collapsed{
-		
+		margin-top: -0.5em;
 		margin-left: 6.5em;
 
 	}
