@@ -469,6 +469,7 @@ p span{
 		margin: 0 auto;
 		border-top: none;
 		margin-bottom: 0.5em;
+		max-width: 640px;
 	}
 	button.navbar-toggle{
 		float: right;
