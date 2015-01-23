@@ -522,7 +522,8 @@ pre {
         height: 150px;
         vertical-align: top; } }
 .navbar {
-  margin-top: 20px; }
+  margin-top: 20px;
+  border-radius: 5px; }
 
 .navigation {
   float: left; }
