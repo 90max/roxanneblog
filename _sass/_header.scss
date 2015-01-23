@@ -2,8 +2,8 @@
 	width: 100%;
 	// border-bottom: 1px solid black;
 	// border-top: 1px solid black;
-	// padding-top: 20px;
-	height: 150px;
+	overflow: hidden;
+	height: auto;
 	.desktop {
 		display: $desktop2;
 	}
@@ -12,16 +12,20 @@
 		text-align: center;
 		margin-left: 20px;
 		margin-right: 20px;
+		height: 150px;
+		vertical-align: top;
 	}
 	.imageContainer {
 		float: right;
 		display: $desktop;
+		height: 150px;
+		vertical-align: top;
 		img {
 			height: 150px;
+			vertical-align: top;
 		}
 	}
 }
-
 
 .headerContainer {
 	@include headerContainer(block, block, left);
@@ -48,6 +52,10 @@
 }
 
 .line {
+	border-bottom: 1px solid #ccc;
+}
+
+.line2 {
 	border-bottom: 1px solid #ccc;
 }
 

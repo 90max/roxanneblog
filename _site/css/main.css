@@ -457,52 +457,70 @@ pre {
 
 .headerContainer {
   width: 100%;
-  height: 150px; }
+  overflow: hidden;
+  height: auto; }
   .headerContainer .desktop {
     display: block; }
   .headerContainer .nameContainer {
     float: left;
     text-align: center;
     margin-left: 20px;
-    margin-right: 20px; }
+    margin-right: 20px;
+    height: 150px;
+    vertical-align: top; }
   .headerContainer .imageContainer {
     float: right;
-    display: block; }
+    display: block;
+    height: 150px;
+    vertical-align: top; }
     .headerContainer .imageContainer img {
-      height: 150px; }
+      height: 150px;
+      vertical-align: top; }
 
 @media (max-width: 720px) {
   .headerContainer {
     width: 100%;
-    height: 150px; }
+    overflow: hidden;
+    height: auto; }
     .headerContainer .desktop {
       display: block; }
     .headerContainer .nameContainer {
       float: none;
       text-align: center;
       margin-left: 20px;
-      margin-right: 20px; }
+      margin-right: 20px;
+      height: 150px;
+      vertical-align: top; }
     .headerContainer .imageContainer {
       float: right;
-      display: none; }
+      display: none;
+      height: 150px;
+      vertical-align: top; }
       .headerContainer .imageContainer img {
-        height: 150px; } }
+        height: 150px;
+        vertical-align: top; } }
 @media (max-width: 450px) {
   .headerContainer {
     width: 100%;
-    height: 150px; }
+    overflow: hidden;
+    height: auto; }
     .headerContainer .desktop {
       display: none; }
     .headerContainer .nameContainer {
       float: none;
       text-align: center;
       margin-left: 20px;
-      margin-right: 20px; }
+      margin-right: 20px;
+      height: 150px;
+      vertical-align: top; }
     .headerContainer .imageContainer {
       float: right;
-      display: none; }
+      display: none;
+      height: 150px;
+      vertical-align: top; }
       .headerContainer .imageContainer img {
-        height: 150px; } }
+        height: 150px;
+        vertical-align: top; } }
 .navbar {
   margin-top: 20px; }
 
@@ -510,6 +528,9 @@ pre {
   float: left; }
 
 .line {
+  border-bottom: 1px solid #ccc; }
+
+.line2 {
   border-bottom: 1px solid #ccc; }
 
 .max {
