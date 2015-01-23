@@ -15,6 +15,7 @@ div.wrapper{
 div.inner-wrapper{
 	margin-left: 25px;
 	margin-right: 25px;
+	padding-top: 20px;
 }
 
 div.page-content{
@@ -24,6 +25,8 @@ div.page-content{
 }
 
 /*HEADER-----------------------------*/
+
+
 li#left{
 	float: left;
 	width: 50%;
@@ -49,7 +52,8 @@ img#roxanne1{
 	border: none;
 	margin-bottom: 0px;
 	margin-top: 1em;
-	margin-left: 0.5em;
+	margin-left: 4.7em;
+	/*margin-left: 0.5em;*/
 	border: 2px solid black;
 	border-radius: 5%;
 }
@@ -60,19 +64,20 @@ header.site-header{
 	border-top: none;
 }
 
-ul.nav.navbar-nav {
+/*ul.nav.navbar-nav {
 	float: right;
 	
-}
+}*/
 
 a.navbar-brand{
 	font-size: 1.8em;
 	font-family: futuraExt;
 	border-top: 0.07em solid black;
 	margin-top: 0.5em;
-	margin-right: 6em;
+	/*margin-right: 6em;*/
 	text-transform: uppercase;
-	width: 6em;
+	/*width: 6em;*/
+	width: 11em;
 	margin-bottom: 0.7em;
 }
 
@@ -85,12 +90,13 @@ div.navbar-header ul li{
 }
 
 ul.nav.navbar-nav li a{
+	color: white;
 	font-family: futuraExt;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	font-size: 1.1em;
-	border-bottom: 1px solid gray;
-	border-top: 1px solid gray;
-	margin-bottom: 1em;
+	/*border-bottom: 1px solid gray;
+	border-top: 1px solid gray;*/
+	/*margin-bottom: 1em;*/
 }
 
 div.collapse.navbar-collapse.navHeaderCollapse{
@@ -99,11 +105,11 @@ div.collapse.navbar-collapse.navHeaderCollapse{
 
 
 
-div#ruling{
+/*div#ruling{
 	border-top: 1px solid #e8e8e8;
 	padding-bottom: 35px;
 	background-color: white;
-}
+}*/
 
 
 
@@ -121,16 +127,19 @@ div#carousel-example-generic{
 
 h1.heading1{
 	width: 100%;
-	height: 100%;
+	height: 50px;
 	background-color: #dd3333;
 	padding: 25px;
 	color: white;
 	text-transform: uppercase;
-	letter-spacing: 1px;
+	letter-spacing: -2px;
 	font-weight: bold;
 	font-size: 2em;
-	font-family: 'Oswald', Arial, serif;
+	font-family: futuraExt, Arial, serif;
 	margin-top: 0px;
+	border-radius: 4px;
+	margin-top: -35px;
+	margin-bottom: 0px;
 }
 
 ul.post-list{
@@ -140,8 +149,8 @@ ul.post-list{
 
 ul.post-list li{
 	border-bottom: 1px solid #e8e8e8;
-	margin-bottom: 25px;
-	padding-bottom: 40px;
+	margin-bottom: 11px;
+	padding-bottom: 15px;
 }
 
 li img{
@@ -149,6 +158,7 @@ li img{
 	float: left;
 	margin-right: 15px;
 	margin-bottom: 20px;
+	margin-top: 8px;
 }
 
 h1.post-title{
@@ -157,12 +167,12 @@ h1.post-title{
 
 a{
 	color: black;
-	padding-right: 15px;
+	padding-right: 4px;
 }
 
-a:visited{
-	color: black;
-}
+/*a:visited{
+	color: red;
+}*/
 
 a.post-link{
 	font-size: 26px;
@@ -188,7 +198,7 @@ div#widget{
 
 #widget ul li{
 	display: inline-block;
-	margin-bottom: 50px;
+	margin-bottom: 15px;
 	font-weight: bold;
 }
 
@@ -209,7 +219,7 @@ h1.page-heading{
 /*SIGN UP----------------------------*/
 
 div#widget ul li p a:visited{
-	color: blue;
+	color: #4777BD;
 }
 div#widget ul li p{
 	margin-left: 0.5em;
@@ -219,8 +229,12 @@ div#widget ul li p{
 
 /*FOOTER-----------------------------*/
 
-div.pagination{
-	margin-left: 20px;
+div.pagination {
+	font-weight: bold;
+	color: #dd3333;
+	margin: 0px;
+	margin-left: 25px;
+	padding-bottom: 20px;
 }
 
 p.rss-subscribe{
@@ -262,11 +276,36 @@ div#community-banner img{
 
 
 /*POSTS PAGE-------------------------*/
-
-div.post img{
-	width: 630px;
-	border: 1px dashed black;
+div#post-img{
+	max-width: 500px;
+	max-height: 400px;
+	overflow: hidden;
+	margin: auto;
+	margin-bottom: 1.5em;
+	padding: 6px;
+	background-color: #dd3333;
 }
+
+img.stretch{
+	width: 100%;
+}
+
+header.post-header{
+	margin-bottom: 1em;
+}
+
+h1.post-title{
+	font-size: 33px;
+	letter-spacing: 2px;
+	margin-top: 10px;
+}
+/*div.post img{
+	max-width: 630px;
+	padding: 6px;
+	background-color: #dd3333;
+	margin-left: 1.5em;
+	margin-bottom: 1.5em;
+}*/
 
 h1.post-head{
 	margin-top: 30px;
@@ -325,14 +364,15 @@ p span{
 
   div.collapse.navbar-collapse.navHeaderCollapse{
   	width: 70%;
-  	margin-top: 2em;
+  	margin-top: 0;
+  	border: none;
   }
 
   ul.nav.navbar-nav li a{
-  	margin-bottom: 0px;
+  	/*margin-bottom: 0px;
   	border-bottom: none;
-  	border-top: none;
-  	border-left: 1px solid gray;
+  	border-top: none;*/
+  	/*border-left: 1px solid gray;*/
 
   }
 
@@ -354,6 +394,10 @@ p span{
   }
 
 }
+
+.navbar {
+	background-color: #dd3333;
+}
 /*@media screen and (max-width:800px){
 
 }   */ 
@@ -370,43 +414,86 @@ p span{
 /*HEADER INCLUDE----------------------------*/
 	/*a.navbar-brand*/
 
-	li#right{
+	.navbar-nav {
+		margin-top: 37px;
+		/* margin: 7.5px -15px; */
+	}
+
+
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+		border: 1px solid #dd3333;
+	}
+
+	.navbar.navbar-default.navbar-static-top{
+		border: none;
+	}
+
+	.no-transition {
+	  -webkit-transition: height 0;
+	  -moz-transition: height 0;
+	  -ms-transition: height 0;
+	  -o-transition: height 0;
+	  transition: height 0;
+	}
+
+	/*li#right{
 		width: 60%;
 		margin-top: 0.5em;
+	}*/
+	li#right{
+		margin-top: 0;
+		float: none;
+		width: 100%;
+		margin-left: 2em;
 	}
 
 	li#left{
-		width: 40%;
+		float: none;
+		width: 100%;
+		/*margin-left: 2em;*/
+		width: 100%;
+	}
+
+	li#left ul{
+		margin-left: 3em;
 	}
 
 	ul#navholder{
-  	display: inline-block;
-  	}
+	  	display: inline-block;
+	  	margin-top: 0;
+	  	margin-left: auto;
+	  	margin-right: auto;
+	}
 
   	div.collapse.navbar-collapse.navHeaderCollapse{
-		margin-top: 6em;
-		margin-left: 4em;
+		border: none;
+		/*margin-top: 6em;
+		margin-left: 4em;*/
 	}
 
 	a.navbar-brand{
-		width: 100%;
+		font-size: 24px;
+		/*width: 100%;*/
 		margin: 0 auto;
 		border-top: none;
-		float: left;
 		margin-bottom: 0.5em;
+		max-width: 640px;
+		text-transform: none;
 	}
 	button.navbar-toggle{
 		float: right;
 		width: 3em;
 		margin: 0 auto;
-		margin-top: 1.5em;
+		/*margin-top: 1.5em;*/
 		border: none;
 		background-color: none;
+		position: absolute;
 
 	}
 
 	div.navbar-header{
 		display: relative;
+		margin-right: none;
 	}
 
 	button.navbar-toggle:focus{
@@ -424,7 +511,12 @@ p span{
 	ul.nav.navbar-nav li a{
 		border: none;
 	}
-
+	button.navbar-toggle.collapsed{
+		margin-top: 8px;
+		float: right;
+		margin-left: 15px;
+		margin-right: 0;
+	}
 	/*div.collapse.navbar-collapse.navHeaderCollapse{
   	margin-top: 9.9em;
  	}*/
@@ -440,6 +532,10 @@ p span{
 	}
 	ul.post-list{
 		width: 100%;
+	}
+
+	h1.heading1{
+		margin-top: 20px;
 	}
 
 /*COMMUNITY.HTML-----------------------------*/	

@@ -15,6 +15,7 @@ div.wrapper{
 div.inner-wrapper{
 	margin-left: 25px;
 	margin-right: 25px;
+	padding-top: 20px;
 }
 
 div.page-content{
@@ -89,12 +90,13 @@ div.navbar-header ul li{
 }
 
 ul.nav.navbar-nav li a{
+	color: white;
 	font-family: futuraExt;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	font-size: 1.1em;
-	border-bottom: 1px solid gray;
-	border-top: 1px solid gray;
-	margin-bottom: 1em;
+	/*border-bottom: 1px solid gray;
+	border-top: 1px solid gray;*/
+	/*margin-bottom: 1em;*/
 }
 
 div.collapse.navbar-collapse.navHeaderCollapse{
@@ -125,7 +127,7 @@ div#carousel-example-generic{
 
 h1.heading1{
 	width: 100%;
-	height: 100%;
+	height: 50px;
 	background-color: #dd3333;
 	padding: 25px;
 	color: white;
@@ -136,6 +138,8 @@ h1.heading1{
 	font-family: futuraExt, Arial, serif;
 	margin-top: 0px;
 	border-radius: 4px;
+	margin-top: -35px;
+	margin-bottom: 0px;
 }
 
 ul.post-list{
@@ -166,9 +170,9 @@ a{
 	padding-right: 4px;
 }
 
-a:visited{
+/*a:visited{
 	color: red;
-}
+}*/
 
 a.post-link{
 	font-size: 26px;
@@ -293,6 +297,7 @@ header.post-header{
 h1.post-title{
 	font-size: 33px;
 	letter-spacing: 2px;
+	margin-top: 10px;
 }
 /*div.post img{
 	max-width: 630px;
@@ -364,10 +369,10 @@ p span{
   }
 
   ul.nav.navbar-nav li a{
-  	margin-bottom: 0px;
+  	/*margin-bottom: 0px;
   	border-bottom: none;
-  	border-top: none;
-  	border-left: 1px solid gray;
+  	border-top: none;*/
+  	/*border-left: 1px solid gray;*/
 
   }
 
@@ -389,6 +394,10 @@ p span{
   }
 
 }
+
+.navbar {
+	background-color: #dd3333;
+}
 /*@media screen and (max-width:800px){
 
 }   */ 
@@ -406,14 +415,13 @@ p span{
 	/*a.navbar-brand*/
 
 	.navbar-nav {
-		margin-top: 2em;
+		margin-top: 37px;
 		/* margin: 7.5px -15px; */
 	}
 
 
 	.navbar-default .navbar-collapse, .navbar-default .navbar-form{
-		border: none;
-
+		border: 1px solid #dd3333;
 	}
 
 	.navbar.navbar-default.navbar-static-top{
@@ -476,7 +484,7 @@ p span{
 		float: right;
 		width: 3em;
 		margin: 0 auto;
-		margin-top: 1.5em;
+		/*margin-top: 1.5em;*/
 		border: none;
 		background-color: none;
 		position: absolute;
@@ -504,9 +512,10 @@ p span{
 		border: none;
 	}
 	button.navbar-toggle.collapsed{
-		margin-top: -0.5em;
-		margin-left: 6.5em;
-
+		margin-top: 8px;
+		float: right;
+		margin-left: 15px;
+		margin-right: 0;
 	}
 	/*div.collapse.navbar-collapse.navHeaderCollapse{
   	margin-top: 9.9em;

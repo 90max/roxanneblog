@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class='inner-wrapper'>
-	 <h1 class="heading1">My blog</h1>
+	 <h1 class="heading2">My blog</h1>
 	<div class="post">
 	<!--<img src="{{page.picture}}" style="max-height: 472px" align="right"/>-->
 	<header class="post-header">
@@ -13,9 +13,29 @@ layout: default
 		<img class='stretch' src="{{page.picture}}"/>
 	</div>
 
+	<div>
 	  <article class="post-content">
 	    {{ content }}
 	  </article>
+
+
+	  <div id='widget'>	
+	      <ul>
+	        <li>
+	          <a class="twitter-timeline" href="https://twitter.com/Roxanne_Mashari" data-widget-id="545664821530988544">Twitter</a>
+	          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	        </li>
+	        <li>
+	          <div class="fb-like-box" data-href="https://www.facebook.com/labourparty" data-height="70px" data-colorscheme="dark" data-show-faces="true" data-header="true" data-stream="false" data-show-border="false"></div>
+	        </li>
+	        <li>
+	            <p><a href=''>Sign Up</a>for my newsletter.</p>
+	        </li>
+	      </ul>
+   	 </div>
+
+
+   	</div>
 
 	</div>
 </div>

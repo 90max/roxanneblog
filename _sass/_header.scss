@@ -1,0 +1,81 @@
+@mixin headerContainer ($desktop, $desktop2, $float) {
+	width: 100%;
+	// border-bottom: 1px solid black;
+	// border-top: 1px solid black;
+	// padding-top: 20px;
+	height: 150px;
+	.desktop {
+		display: $desktop2;
+	}
+	.nameContainer {
+		float:$float;
+		text-align: center;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.imageContainer {
+		float: right;
+		display: $desktop;
+		img {
+			height: 150px;
+		}
+	}
+}
+
+
+.headerContainer {
+	@include headerContainer(block, block, left);
+}
+
+@media (max-width: 720px) {
+	.headerContainer {
+		@include headerContainer(none, block, none)
+	}
+}
+
+@media (max-width: 450px) {
+	.headerContainer {
+		@include headerContainer(none, none, none)
+	}
+}
+
+
+.navbar {
+	margin-top: 20px;
+}
+.navigation {
+	float:left;
+}
+
+.line {
+	border-bottom: 1px solid #ccc;
+}
+
+.max {
+	margin-top: 9px;
+	margin-left: 10px;
+}
+
+.post-content {
+	float: left;
+	max-width: 610px;
+	margin-top: 20px;
+}
+
+.heading2 {
+	width: 100%;
+	height: 50px;
+	background-color: #dd3333;
+	padding: 25px;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: -2px;
+	font-weight: bold;
+	font-size: 2em;
+	font-family: futuraExt, Arial, serif;
+	margin-top: 0px;
+	border-radius: 4px;
+	margin-bottom: 0px;
+	padding-top: 13px;
+}
+
