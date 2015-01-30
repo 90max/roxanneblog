@@ -135,7 +135,7 @@ h1.heading1{
 	letter-spacing: -2px;
 	font-weight: bold;
 	font-size: 2em;
-	font-family: futuraExt, Arial, serif;
+	font-family: 'Libre+Baskerville', serif;
 	margin-top: 0px;
 	border-radius: 4px;
 	margin-top: -35px;
@@ -179,6 +179,7 @@ a.post-link{
 	display: inline;
 	font-weight: normal;
 	color: #333;
+	font-family: 'Libre+Baskerville', serif;
 }
 /*WIDGETS*/
 
@@ -295,6 +296,7 @@ header.post-header{
 }
 
 h1.post-title{
+	font-family: 'Libre+Baskerville';
 	font-size: 33px;
 	letter-spacing: 2px;
 	margin-top: 10px;
