@@ -91,7 +91,7 @@ div.navbar-header ul li{
 
 ul.nav.navbar-nav li a{
 	color: white;
-	font-family: futuraExt;
+	font-family: 'Open Sans', sans-serif;
 	/*text-transform: uppercase;*/
 	font-size: 1.1em;
 	/*border-bottom: 1px solid gray;
@@ -135,7 +135,7 @@ h1.heading1{
 	letter-spacing: -2px;
 	font-weight: bold;
 	font-size: 2em;
-	font-family: 'Libre+Baskerville', serif;
+	font-family: 'Open Sans', sans-serif;
 	margin-top: 0px;
 	border-radius: 4px;
 	margin-top: -35px;
@@ -179,8 +179,14 @@ a.post-link{
 	display: inline;
 	font-weight: normal;
 	color: #333;
-	font-family: 'Libre+Baskerville', serif;
+	font-family: 'Open Sans', sans-serif;
 }
+
+div#post-content p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+}
+
 /*WIDGETS*/
 
 div#widget{
@@ -296,7 +302,7 @@ header.post-header{
 }
 
 h1.post-title{
-	font-family: 'Libre+Baskerville';
+	font-family: 'Open Sans', sans-serif;
 	font-size: 33px;
 	letter-spacing: 2px;
 	margin-top: 10px;
