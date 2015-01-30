@@ -384,10 +384,15 @@ h1.heading2{
 	text-transform: none;
 	font-weight: normal;
 	letter-spacing: normal;
+	margin-bottom: 1em;
 }
 
 p span{
 	font-weight: bold;
+}
+
+div.inner-wrapper p{
+	font-family: 'Open Sans', sans-serif;
 }
 
 
