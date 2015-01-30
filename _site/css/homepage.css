@@ -117,6 +117,14 @@ header.site-header{
 	border-top: none;
 }
 
+div.nameContainer h1{
+	font-family: 'Open-Sans', sans-serif;
+}
+
+div.nameContainer p{
+	font-family: 'Open-Sans', sans-serif;
+}
+
 
 /*SLIDER-----------------------------*/
 div#carousel-example-generic{
@@ -600,3 +608,4 @@ p span{
 
 }
 /*------------------------------------*/
+

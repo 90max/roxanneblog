@@ -468,6 +468,10 @@ pre {
     margin-right: 20px;
     height: 150px;
     vertical-align: top; }
+    .headerContainer .nameContainer h1 {
+      font-family: 'Open Sans', sans-serif; }
+    .headerContainer .nameContainer p {
+      font-family: 'Open Sans', sans-serif; }
   .headerContainer .imageContainer {
     float: right;
     display: block;
@@ -491,6 +495,10 @@ pre {
       margin-right: 20px;
       height: 150px;
       vertical-align: top; }
+      .headerContainer .nameContainer h1 {
+        font-family: 'Open Sans', sans-serif; }
+      .headerContainer .nameContainer p {
+        font-family: 'Open Sans', sans-serif; }
     .headerContainer .imageContainer {
       float: right;
       display: none;
@@ -513,6 +521,10 @@ pre {
       margin-right: 20px;
       height: 150px;
       vertical-align: top; }
+      .headerContainer .nameContainer h1 {
+        font-family: 'Open Sans', sans-serif; }
+      .headerContainer .nameContainer p {
+        font-family: 'Open Sans', sans-serif; }
     .headerContainer .imageContainer {
       float: right;
       display: none;
