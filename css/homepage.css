@@ -27,7 +27,7 @@ div.page-content{
 /*HEADER-----------------------------*/
 
 
-li#left{
+/*li#left{
 	float: left;
 	width: 50%;
 }
@@ -53,30 +53,26 @@ img#roxanne1{
 	margin-bottom: 0px;
 	margin-top: 1em;
 	margin-left: 4.7em;
-	/*margin-left: 0.5em;*/
+	--margin-left: 0.5em;--
 	border: 2px solid black;
 	border-radius: 5%;
 }
 
-header.site-header{
-	background-color: #dd3333;
-	border-bottom: none;
-	border-top: none;
-}
 
-/*ul.nav.navbar-nav {
+
+--ul.nav.navbar-nav {
 	float: right;
 	
-}*/
+}--
 
 a.navbar-brand{
 	font-size: 1.8em;
 	font-family: futuraExt;
 	border-top: 0.07em solid black;
 	margin-top: 0.5em;
-	/*margin-right: 6em;*/
+	--margin-right: 6em;--
 	text-transform: uppercase;
-	/*width: 6em;*/
+	--width: 6em;--
 	width: 11em;
 	margin-bottom: 0.7em;
 }
@@ -87,7 +83,23 @@ color: black;
 
 div.navbar-header ul li{
 	display: block;
-}
+}*/
+
+
+
+
+
+/*div.collapse.navbar-collapse.navHeaderCollapse{
+  	margin-top: 10.9em;
+  }
+
+
+
+div#ruling{
+	border-top: 1px solid #e8e8e8;
+	padding-bottom: 35px;
+	background-color: white;
+}*/
 
 ul.nav.navbar-nav li a{
 	color: white;
@@ -95,23 +107,15 @@ ul.nav.navbar-nav li a{
 	/*text-transform: uppercase;*/
 	font-size: 1.1em;
 	/*border-bottom: 1px solid gray;
-	border-top: 1px solid gray;*/
-	/*margin-bottom: 1em;*/
+	border-top: 1px solid gray;
+	margin-bottom: 1em;*/
 }
 
-div.collapse.navbar-collapse.navHeaderCollapse{
-  	margin-top: 10.9em;
-  }
-
-
-
-/*div#ruling{
-	border-top: 1px solid #e8e8e8;
-	padding-bottom: 35px;
-	background-color: white;
-}*/
-
-
+header.site-header{
+	background-color: #dd3333;
+	border-bottom: none;
+	border-top: none;
+}
 
 
 /*SLIDER-----------------------------*/
@@ -340,6 +344,7 @@ div.about-me-wrapper img{
 div.about-me-wrapper p{
 	font-size: 33px;
 	margin-top: 30px;
+	font-family: 'Open-Sans', sans-serif;
 }
 
 div.about-me-wrapper p#fullname{
@@ -354,7 +359,19 @@ div.about-me-content{
 	float: left;
 }
 
+div.about-me-content p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+}
+
 /*CONTACT ME PAGE---------------------------*/
+
+h1.heading2{
+	font-family: 'Open-sans', sans-serif;
+	text-transform: none;
+	font-weight: normal;
+	letter-spacing: normal;
+}
 
 p span{
 	font-weight: bold;
