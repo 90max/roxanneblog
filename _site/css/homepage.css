@@ -365,6 +365,7 @@ div.about-me-wrapper p#fullname{
 	color: #dd3333;
 	font-size: 28px;
 	text-align: right;
+	margin-right: 0.5em;
 }
 
 div.about-me-content{
