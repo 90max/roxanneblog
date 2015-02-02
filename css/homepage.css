@@ -400,7 +400,9 @@ ul.post-list li p{
 	font-size: 12px;
 }
 
-
+div#contact-page{
+	height: 100vh;
+}
 
 
 
