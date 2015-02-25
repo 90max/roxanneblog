@@ -5,9 +5,22 @@
     <description></description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 02 Feb 2015 11:32:21 +0000</pubDate>
-    <lastBuildDate>Mon, 02 Feb 2015 11:32:21 +0000</lastBuildDate>
-    <generator>Jekyll v2.5.2</generator>
+    <pubDate>Wed, 25 Feb 2015 15:31:45 +0000</pubDate>
+    <lastBuildDate>Wed, 25 Feb 2015 15:31:45 +0000</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>This March</title>
+        <description>&lt;p&gt;Nam tempor urna sed neque tempor ornare. Suspendisse sodales varius lectus non molestie. Mauris in volutpat eros, et consequat metus. In pellentesque tristique tempor. Morbi et nulla imperdiet, porta nibh et, tincidunt turpis. Integer elementum, nisi quis posuere venenatis, libero risus blandit dui, a fringilla est ipsum eget magna. Fusce condimentum felis lectus, sodales pulvinar diam molestie non. Cras convallis risus id felis semper hendrerit. Aliquam vestibulum lacus quis sagittis interdum. Nunc consectetur fermentum lorem, eu euismod mi tempus id. Suspendisse porttitor mi ac orci aliquet, eu faucibus enim tempor.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 25 Feb 2015 00:00:00 +0000</pubDate>
+        <link>http://yourdomain.com/community/2015/02/25/this-March.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/community/2015/02/25/this-March.html</guid>
+        
+        
+        <category>community</category>
+        
+      </item>
     
       <item>
         <title>Lorem Ipsum</title>
@@ -145,24 +158,6 @@
         
         
         <category>community</category>
-        
-      </item>
-    
-      <item>
-        <title>Brent rallies</title>
-        <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu condimentum nisi, sit amet pretium libero. Aliquam non metus quam. Nam varius eget mauris vitae euismod. Pellentesque ante velit, tincidunt sed tortor in, malesuada semper orci. Donec consectetur in magna ac ornare. Aenean ut turpis et nisi lacinia hendrerit. Ut lacus elit, gravida sit amet aliquet egestas, ultrices congue diam.&lt;/p&gt;
-
-&lt;p&gt;Donec venenatis ante eget justo maximus luctus. Sed ut consectetur ante. Nullam tincidunt consectetur ligula in lobortis. Nulla in blandit leo. In venenatis lorem sed laoreet iaculis. Fusce aliquet justo tellus, eget efficitur ipsum vulputate a. Pellentesque pharetra, dui eget.&lt;/p&gt;
-
-</description>
-        <pubDate>Wed, 17 Dec 2014 22:25:19 +0000</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2014/12/17/post-1.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2014/12/17/post-1.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
         
       </item>
     
