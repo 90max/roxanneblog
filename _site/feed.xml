@@ -3,10 +3,10 @@
   <channel>
     <title></title>
     <description></description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 25 Feb 2015 15:31:45 +0000</pubDate>
-    <lastBuildDate>Wed, 25 Feb 2015 15:31:45 +0000</lastBuildDate>
+    <link>http://yourdomain.comaseurl/</link>
+    <atom:link href="http://yourdomain.comaseurl/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 27 Mar 2015 16:01:08 +0000</pubDate>
+    <lastBuildDate>Fri, 27 Mar 2015 16:01:08 +0000</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -14,8 +14,8 @@
         <description>&lt;p&gt;Nam tempor urna sed neque tempor ornare. Suspendisse sodales varius lectus non molestie. Mauris in volutpat eros, et consequat metus. In pellentesque tristique tempor. Morbi et nulla imperdiet, porta nibh et, tincidunt turpis. Integer elementum, nisi quis posuere venenatis, libero risus blandit dui, a fringilla est ipsum eget magna. Fusce condimentum felis lectus, sodales pulvinar diam molestie non. Cras convallis risus id felis semper hendrerit. Aliquam vestibulum lacus quis sagittis interdum. Nunc consectetur fermentum lorem, eu euismod mi tempus id. Suspendisse porttitor mi ac orci aliquet, eu faucibus enim tempor.&lt;/p&gt;
 </description>
         <pubDate>Wed, 25 Feb 2015 00:00:00 +0000</pubDate>
-        <link>http://yourdomain.com/community/2015/02/25/this-March.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/community/2015/02/25/this-March.html</guid>
+        <link>http://yourdomain.comaseurl/community/2015/02/25/this-March.html</link>
+        <guid isPermaLink="true">http://yourdomain.comaseurl/community/2015/02/25/this-March.html</guid>
         
         
         <category>community</category>
@@ -29,8 +29,8 @@
 &lt;p&gt;Morbi odio ligula, congue a leo et, condimentum ultricies orci. Nulla eu velit sed eros auctor elementum. Fusce in nibh ac sapien porttitor iaculis. Pellentesque euismod nisi blandit lacus ullamcorper, non sagittis orci posuere. Proin tortor quam, consequat ut leo et, laoreet porttitor nibh. Cras euismod orci nulla, ac commodo nibh pharetra non. Nam sapien dui, porta sed nisi in, auctor finibus dolor. Phasellus non tempus nulla. Nulla id venenatis lacus.&lt;/p&gt;
 </description>
         <pubDate>Sat, 10 Jan 2015 00:00:00 +0000</pubDate>
-        <link>http://yourdomain.com/jekyll/2015/01/10/Lorem-Ipsum.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/2015/01/10/Lorem-Ipsum.html</guid>
+        <link>http://yourdomain.comaseurl/jekyll/2015/01/10/Lorem-Ipsum.html</link>
+        <guid isPermaLink="true">http://yourdomain.comaseurl/jekyll/2015/01/10/Lorem-Ipsum.html</guid>
         
         
         <category>jekyll</category>
@@ -44,8 +44,8 @@
 &lt;p&gt;Donec venenatis ante eget justo maximus luctus. Sed ut consectetur ante. Nullam tincidunt consectetur ligula in lobortis. Nulla in blandit leo. In venenatis lorem sed laoreet iaculis. Fusce aliquet justo tellus, eget efficitur ipsum vulputate a. Pellentesque pharetra, dui eget.&lt;/p&gt;
 </description>
         <pubDate>Fri, 09 Jan 2015 15:54:19 +0000</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2015/01/09/Post-8.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2015/01/09/Post-8.html</guid>
+        <link>http://yourdomain.comaseurl/jekyll/update/2015/01/09/Post-8.html</link>
+        <guid isPermaLink="true">http://yourdomain.comaseurl/jekyll/update/2015/01/09/Post-8.html</guid>
         
         
         <category>jekyll</category>
@@ -60,8 +60,8 @@
 
 </description>
         <pubDate>Fri, 09 Jan 2015 00:00:00 +0000</pubDate>
-        <link>http://yourdomain.com/2015/01/09/Crisis-talks.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/2015/01/09/Crisis-talks.html</guid>
+        <link>http://yourdomain.comaseurl/2015/01/09/Crisis-talks.html</link>
+        <guid isPermaLink="true">http://yourdomain.comaseurl/2015/01/09/Crisis-talks.html</guid>
         
         
       </item>
@@ -72,8 +72,8 @@
 
 </description>
         <pubDate>Fri, 09 Jan 2015 00:00:00 +0000</pubDate>
-        <link>http://yourdomain.com/jekyll/2015/01/09/Cinema-Surge.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/2015/01/09/Cinema-Surge.html</guid>
+        <link>http://yourdomain.comaseurl/jekyll/2015/01/09/Cinema-Surge.html</link>
+        <guid isPermaLink="true">http://yourdomain.comaseurl/jekyll/2015/01/09/Cinema-Surge.html</guid>
         
         
         <category>jekyll</category>
@@ -87,8 +87,8 @@
 &lt;p&gt;Donec venenatis ante eget justo maximus luctus. Sed ut consectetur ante. Nullam tincidunt consectetur ligula in lobortis. Nulla in blandit leo. In venenatis lorem sed laoreet iaculis. Fusce aliquet justo tellus, eget efficitur ipsum vulputate a. Pellentesque pharetra, dui eget.&lt;/p&gt;
 </description>
         <pubDate>Tue, 06 Jan 2015 18:25:19 +0000</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2015/01/06/Post7.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2015/01/06/Post7.html</guid>
+        <link>http://yourdomain.comaseurl/jekyll/update/2015/01/06/Post7.html</link>
+        <guid isPermaLink="true">http://yourdomain.comaseurl/jekyll/update/2015/01/06/Post7.html</guid>
         
         
         <category>jekyll</category>
@@ -104,8 +104,8 @@
 &lt;p&gt;Donec venenatis ante eget justo maximus luctus. Sed ut consectetur ante. Nullam tincidunt consectetur ligula in lobortis. Nulla in blandit leo. In venenatis lorem sed laoreet iaculis. Fusce aliquet justo tellus, eget efficitur ipsum vulputate a. Pellentesque pharetra, dui eget.&lt;/p&gt;
 </description>
         <pubDate>Tue, 06 Jan 2015 17:25:19 +0000</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2015/01/06/Post6.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2015/01/06/Post6.html</guid>
+        <link>http://yourdomain.comaseurl/jekyll/update/2015/01/06/Post6.html</link>
+        <guid isPermaLink="true">http://yourdomain.comaseurl/jekyll/update/2015/01/06/Post6.html</guid>
         
         
         <category>jekyll</category>
@@ -122,8 +122,8 @@
 
 </description>
         <pubDate>Tue, 06 Jan 2015 15:25:19 +0000</pubDate>
-        <link>http://yourdomain.com/community/2015/01/06/CPost-3.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/community/2015/01/06/CPost-3.html</guid>
+        <link>http://yourdomain.comaseurl/community/2015/01/06/CPost-3.html</link>
+        <guid isPermaLink="true">http://yourdomain.comaseurl/community/2015/01/06/CPost-3.html</guid>
         
         
         <category>community</category>
@@ -138,8 +138,8 @@
 
 </description>
         <pubDate>Tue, 06 Jan 2015 14:25:19 +0000</pubDate>
-        <link>http://yourdomain.com/community/2015/01/06/Another-Cpost.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/community/2015/01/06/Another-Cpost.html</guid>
+        <link>http://yourdomain.comaseurl/community/2015/01/06/Another-Cpost.html</link>
+        <guid isPermaLink="true">http://yourdomain.comaseurl/community/2015/01/06/Another-Cpost.html</guid>
         
         
         <category>community</category>
@@ -153,8 +153,8 @@
 &lt;p&gt;Donec venenatis ante eget justo maximus luctus. Sed ut consectetur ante. Nullam tincidunt consectetur ligula in lobortis. Nulla in blandit leo. In venenatis lorem sed laoreet iaculis. Fusce aliquet justo tellus, eget efficitur ipsum vulputate a. Pellentesque pharetra, dui eget.&lt;/p&gt;
 </description>
         <pubDate>Thu, 18 Dec 2014 14:25:19 +0000</pubDate>
-        <link>http://yourdomain.com/community/2014/12/18/CPost-1.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/community/2014/12/18/CPost-1.html</guid>
+        <link>http://yourdomain.comaseurl/community/2014/12/18/CPost-1.html</link>
+        <guid isPermaLink="true">http://yourdomain.comaseurl/community/2014/12/18/CPost-1.html</guid>
         
         
         <category>community</category>
