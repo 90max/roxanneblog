@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: jekyll
-picture: /roxanneblog/imgs/community.jpg
+picture: /imgs/community.jpg
 ---
 
 Aenean congue euismod sagittis. Proin sed neque eget lacus varius porttitor. Sed feugiat lectus tellus. Vivamus commodo, velit id accumsan hendrerit, metus ipsum aliquam lorem, interdum varius nunc tellus et tortor. Morbi vulputate risus nisl, vel aliquet turpis euismod vitae. Nullam imperdiet vel tellus tincidunt ullamcorper. Vivamus vitae rhoncus purus, ut suscipit lectus. Morbi at sem dolor. Duis ac lacus id velit congue congue. Ut tortor diam, luctus ut mi sed, mattis volutpat quam.

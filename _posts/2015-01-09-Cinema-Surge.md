@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: jekyll
-picture: /roxanneblog/imgs/community.jpg
+picture: /imgs/community.jpg
 
 ---
 
